@@ -1,0 +1,1827 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"az" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead executive officer's office #1";
+	dir = 8;
+	network = list("hammerhead")
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"aB" = (
+/obj/structure/plaque/static_plaque/golden/captain,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"aN" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge)
+"aY" = (
+/obj/structure/grille/broken,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"bE" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"bY" = (
+/turf/open/floor/plating,
+/area/template_noop)
+"do" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"dp" = (
+/obj/effect/turf_decal/arrows/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"dE" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"dU" = (
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
+"eb" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/template_noop)
+"ee" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/weapons)
+"fs" = (
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"fv" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"fy" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/captain)
+"fC" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"fE" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"fQ" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"gg" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"gt" = (
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"gx" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"gG" = (
+/obj/machinery/holopad,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"ha" = (
+/obj/structure/grille/broken,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"hb" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"hC" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"hM" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"iG" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"kn" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/maintenance)
+"kt" = (
+/obj/machinery/door/airlock/command,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"lc" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"lE" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"lM" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"lO" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/template_noop)
+"nj" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"nH" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"nX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"or" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"ot" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"oy" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead executive officer's office #2";
+	dir = 1;
+	network = list("hammerhead")
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"oF" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"oH" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead CIC #1";
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"oP" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"oY" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"pc" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"pk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"pA" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"pF" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"pX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead bridge #2";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"qE" = (
+/obj/item/stack/sheet/plasteel,
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"qM" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/xo)
+"qP" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
+"qV" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"rU" = (
+/obj/item/stack/cable_coil/cut/red,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"rY" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead meeting room";
+	network = list("hammerhead")
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"si" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"ss" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"sF" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/maintenance)
+"sK" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"sR" = (
+/obj/structure/table/glass,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"sT" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/xo)
+"ub" = (
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"uo" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"up" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"us" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"vi" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"vO" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"vQ" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"wi" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"wl" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"wE" = (
+/obj/structure/grille/broken,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"wF" = (
+/obj/effect/turf_decal/arrows/red,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"wS" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"xc" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/hallway)
+"xf" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"xM" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"xS" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"xU" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"ya" = (
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/template_noop)
+"zj" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"zQ" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"AG" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Bp" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"BF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"BL" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"BO" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"Cc" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Cq" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"CA" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Dg" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"DL" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"El" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Es" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge)
+"Fj" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"FF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Gb" = (
+/obj/item/stack/rods/ten,
+/turf/open/floor/plating/foam,
+/area/ruin/unpowered/hammerhead/weapons)
+"Gj" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/template_noop)
+"Gn" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge)
+"Gv" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"GA" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 5
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"GE" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead forward hallway";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 4
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"GG" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Hm" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"Hq" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 4
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"Ic" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"Io" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
+"Is" = (
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"IH" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"IK" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"IR" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ja" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"KA" = (
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"KF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Lb" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Le" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Ly" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge)
+"LT" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Mz" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"MR" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead captain's office";
+	network = list("hammerhead")
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"MX" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"NH" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"NS" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"OY" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Pk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Pt" = (
+/turf/open/floor/plasteel/dark/corner{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"PD" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"Qb" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Qk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"QG" = (
+/obj/item/stack/sheet/metal/ten,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"QT" = (
+/obj/structure/grille,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"Rj" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"RJ" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead captain's quarters";
+	dir = 1;
+	network = list("hammerhead")
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"RM" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/hallway)
+"RR" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"RX" = (
+/turf/open/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"Sg" = (
+/turf/template_noop,
+/area/template_noop)
+"SV" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Th" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 6
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"TC" = (
+/obj/machinery/holopad,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"TM" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/hallway)
+"TU" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead CIC #2";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge)
+"Uq" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Uy" = (
+/obj/machinery/door/airlock/command,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"UL" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"We" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"WQ" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/template_noop)
+"WS" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead bridge #1";
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"WT" = (
+/obj/structure/sign/directions/security{
+	pixel_y = 5
+	},
+/obj/structure/sign/directions/command{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/weapons)
+"XK" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"Ym" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain)
+"YS" = (
+/turf/open/floor/plating/foam,
+/area/ruin/unpowered/hammerhead/weapons)
+"Zh" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"ZF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"ZI" = (
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/maintenance)
+
+(1,1,1) = {"
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+dU
+ub
+fv
+xc
+xc
+xc
+xc
+xc
+xc
+xc
+dU
+ub
+fv
+RM
+TM
+TM
+TM
+TM
+TM
+TM
+dp
+SV
+GG
+sF
+CA
+sF
+"}
+(2,1,1) = {"
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+dU
+ub
+GA
+Hq
+Hq
+Hq
+GE
+Hq
+Hq
+Hq
+Th
+ub
+fv
+wF
+ss
+wF
+ss
+wF
+ss
+wi
+ss
+SV
+GG
+sF
+GG
+kn
+"}
+(3,1,1) = {"
+Is
+Is
+gg
+Is
+Is
+Is
+Is
+Is
+ee
+dU
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+ub
+fv
+sT
+Hm
+Hm
+Hm
+Hm
+Hm
+qM
+sT
+sT
+GG
+sF
+sF
+ZI
+"}
+(4,1,1) = {"
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+Is
+WT
+Pt
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+RX
+sT
+up
+gt
+gt
+We
+iG
+or
+or
+sT
+GG
+kn
+kn
+ZI
+"}
+(5,1,1) = {"
+Is
+Is
+Is
+Is
+Is
+hM
+ee
+Gn
+Gn
+si
+si
+Ly
+si
+si
+Gn
+Gn
+Gn
+Gn
+Gn
+Gn
+Gn
+Gn
+sT
+up
+vi
+gt
+gt
+iG
+or
+iG
+sT
+GG
+GG
+kn
+ZI
+"}
+(6,1,1) = {"
+Is
+Is
+KA
+Is
+Is
+QG
+pF
+Gn
+KF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+FF
+Pk
+FF
+FF
+pX
+kt
+gt
+gt
+gG
+do
+or
+or
+oy
+sT
+SV
+SV
+SV
+ZI
+"}
+(7,1,1) = {"
+Is
+Is
+Is
+Is
+YS
+YS
+wE
+Gn
+El
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+pk
+sT
+pc
+gt
+gt
+gt
+XK
+gt
+gt
+sT
+bY
+bY
+SV
+dE
+"}
+(8,1,1) = {"
+Is
+Is
+Is
+YS
+YS
+hM
+AG
+Gn
+El
+fE
+fE
+fE
+fE
+fE
+Qb
+fE
+fE
+fE
+fE
+fE
+fE
+pk
+sT
+gt
+xS
+az
+MX
+gt
+gt
+gt
+qE
+bY
+bY
+Mz
+Sg
+"}
+(9,1,1) = {"
+Is
+Is
+YS
+YS
+YS
+hM
+oP
+Gn
+WS
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+pk
+sT
+sT
+sT
+sT
+sT
+sT
+sT
+sT
+sT
+bY
+bY
+bY
+Sg
+"}
+(10,1,1) = {"
+Is
+Is
+Is
+YS
+Is
+hM
+rU
+Gn
+fC
+fE
+fE
+fE
+gx
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+fE
+pk
+Es
+aN
+aN
+aN
+TU
+aN
+aN
+aN
+IR
+bY
+bY
+bY
+Sg
+"}
+(11,1,1) = {"
+Is
+gg
+Is
+YS
+YS
+ee
+wE
+Gn
+bE
+Bp
+Bp
+Bp
+IH
+IH
+IH
+Bp
+Bp
+Bp
+Bp
+Bp
+Bp
+sK
+Es
+aN
+aN
+aN
+aN
+aN
+aN
+aN
+IR
+bY
+bY
+bY
+Sg
+"}
+(12,1,1) = {"
+Is
+Is
+YS
+YS
+YS
+ee
+AG
+zQ
+zQ
+zQ
+zQ
+zQ
+fy
+fy
+fy
+Uy
+fy
+Ja
+xf
+Fj
+xf
+Ja
+Ja
+vQ
+wl
+wl
+vQ
+wl
+wl
+vQ
+Gv
+bY
+bY
+bY
+Sg
+"}
+(13,1,1) = {"
+Is
+Is
+Is
+Gb
+YS
+ee
+AG
+zQ
+UL
+uo
+uo
+uo
+xU
+Io
+sR
+ad
+fy
+LT
+LT
+LT
+LT
+LT
+Ja
+qV
+ZF
+ZF
+ZF
+ZF
+ZF
+lM
+Rj
+bY
+bY
+bY
+Sg
+"}
+(14,1,1) = {"
+Is
+Is
+YS
+YS
+gg
+ee
+AG
+zQ
+uo
+uo
+uo
+zQ
+ad
+ad
+sR
+pA
+fy
+LT
+Uq
+Uq
+Uq
+LT
+Ja
+IK
+BF
+lE
+lE
+lE
+nX
+hb
+Rj
+bY
+bY
+bY
+Sg
+"}
+(15,1,1) = {"
+Is
+YS
+YS
+Is
+YS
+ee
+AG
+zQ
+uo
+uo
+uo
+zQ
+ad
+sR
+sR
+ad
+fy
+LT
+Uq
+Uq
+Uq
+LT
+Ja
+DL
+vO
+lE
+lE
+lE
+lc
+Dg
+Rj
+bY
+bY
+bY
+Sg
+"}
+(16,1,1) = {"
+YS
+YS
+hM
+ee
+ee
+ee
+AG
+zQ
+uo
+uo
+RJ
+zQ
+MR
+ad
+TC
+ad
+fy
+rY
+Uq
+Uq
+Uq
+LT
+Ja
+Qk
+lE
+lE
+NS
+lE
+lE
+Dg
+Rj
+bY
+bY
+bY
+Sg
+"}
+(17,1,1) = {"
+xM
+ha
+Le
+Le
+Le
+Le
+OY
+zQ
+oF
+uo
+uo
+zQ
+BL
+BL
+Io
+ad
+fy
+LT
+Uq
+Uq
+Uq
+LT
+xf
+DL
+lE
+fQ
+ZF
+us
+lE
+Dg
+Rj
+bY
+bY
+bY
+Sg
+"}
+(18,1,1) = {"
+zj
+ee
+ee
+ee
+ee
+ee
+ee
+aB
+oF
+uo
+uo
+zQ
+wS
+wS
+ad
+ad
+fy
+LT
+Uq
+Uq
+Uq
+LT
+Ja
+oH
+lE
+Zh
+Cq
+Cc
+lE
+Dg
+Rj
+bY
+bY
+bY
+Sg
+"}
+(19,1,1) = {"
+Sg
+Mz
+BO
+Mz
+BO
+Ic
+bY
+zQ
+oF
+oF
+uo
+zQ
+PD
+BL
+ad
+ad
+fy
+nj
+Uq
+Uq
+Uq
+LT
+Ja
+hC
+NH
+NH
+NH
+NH
+NH
+ot
+Rj
+bY
+bY
+bY
+Sg
+"}
+(20,1,1) = {"
+BO
+Ic
+Ic
+Gj
+Ic
+Ic
+bY
+zQ
+Lb
+Lb
+Lb
+zQ
+qP
+qP
+qP
+qP
+Ym
+LT
+LT
+LT
+LT
+LT
+nH
+Rj
+Rj
+Rj
+Rj
+Rj
+Rj
+Rj
+Rj
+bY
+bY
+bY
+Sg
+"}
+(21,1,1) = {"
+BO
+Sg
+Mz
+Ic
+BO
+Ic
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+nH
+Fj
+Fj
+Fj
+Fj
+Fj
+nH
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+Sg
+Mz
+Gj
+"}
+(22,1,1) = {"
+BO
+Gj
+Sg
+Mz
+eb
+Mz
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+ya
+WQ
+Sg
+"}
+(23,1,1) = {"
+Mz
+Ic
+eb
+Mz
+eb
+Mz
+Sg
+Sg
+Sg
+fs
+Ic
+Sg
+Sg
+Gj
+Ic
+Sg
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+Sg
+WQ
+Sg
+"}
+(24,1,1) = {"
+Ic
+Sg
+Gj
+Ic
+BO
+Sg
+Sg
+Sg
+Sg
+WQ
+Mz
+Mz
+WQ
+Ic
+WQ
+fs
+Sg
+Sg
+Sg
+Sg
+Ic
+aY
+QT
+Sg
+Sg
+Sg
+Mz
+Sg
+Sg
+Gj
+Sg
+Sg
+Sg
+Mz
+Sg
+"}
+(25,1,1) = {"
+BO
+Gj
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Gj
+WQ
+Ic
+WQ
+Ic
+Ic
+WQ
+Mz
+Mz
+WQ
+RR
+Ic
+Mz
+lO
+WQ
+WQ
+Sg
+"}

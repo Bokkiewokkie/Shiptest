@@ -3250,6 +3250,7 @@
 #include "whitesands\code\datums\traits\_quirk.dm"
 #include "whitesands\code\game\area\ship_areas.dm"
 #include "whitesands\code\game\area\areas\ruins\space.dm"
+#include "whitesands\code\game\area\areas\ruins\jungle.dm"
 #include "whitesands\code\game\gamemodes\objectives.dm"
 #include "whitesands\code\game\gamemodes\changeling\changeling.dm"
 #include "whitesands\code\game\machinery\cloning.dm"

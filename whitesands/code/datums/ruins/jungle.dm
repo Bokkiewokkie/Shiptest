@@ -27,13 +27,6 @@
 	id = "tumblr-sexyman"
 	description = "After a logging incident gone wrong, the Syndicate invade this factory to stop the beast."
 	suffix = "jungle_surface_tumblr_sexyman.dmm"
-
-//putting this area here until i make jungle areas.dm in another PR that i am totally making
-/area/ruin/jungle/onceler/main
-	requires_power = FALSE
-	name = "Thneed Factory"
-	icon_state = "engine"
-
 //thneedville end
 
 //industrial society blah blah blah
