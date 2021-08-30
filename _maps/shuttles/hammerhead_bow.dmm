@@ -1,0 +1,3263 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"as" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"az" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"aR" = (
+/obj/machinery/pdapainter,
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"aW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"bp" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"by" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"bC" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 5
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"bE" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"bP" = (
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"bV" = (
+/obj/structure/grille/broken,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"bY" = (
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"cl" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"cy" = (
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"cA" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"cH" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead)
+"cN" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"cR" = (
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"cZ" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 6
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"dp" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"ds" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"dE" = (
+/obj/structure/sign/directions/security{
+	pixel_y = 5
+	},
+/obj/structure/sign/directions/command{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/weapons)
+"eo" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"ey" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"eH" = (
+/obj/structure/table/wood,
+/obj/item/pen/red{
+	pixel_x = -13;
+	pixel_y = 6
+	},
+/obj/item/pen/blue{
+	pixel_x = -17
+	},
+/obj/machinery/computer/med_data/laptop,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"eW" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"fh" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"fp" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"fA" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"fB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"fI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"fL" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/template_noop)
+"gm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"gv" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"gR" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"hj" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"hm" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"hn" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/hallway)
+"ho" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"hq" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"hA" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"ia" = (
+/obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"ig" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"in" = (
+/obj/machinery/power/apc/auto_name/west,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
+"io" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"iD" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/item/disk/nuclear/fake,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"iJ" = (
+/obj/structure/fluff/paper/stack{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"iX" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"jf" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"jp" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"ju" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/hallway)
+"jw" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"jX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"kb" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"ke" = (
+/obj/structure/table/glass,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"kA" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"kB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"kH" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead bridge #2";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"kO" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/xo)
+"lc" = (
+/obj/effect/turf_decal/arrows/red,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"lm" = (
+/obj/structure/chair/office/light,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"ls" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"lt" = (
+/turf/template_noop,
+/area/template_noop)
+"lC" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"lH" = (
+/obj/machinery/newscaster,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/xo)
+"mb" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"mg" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"mm" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead forward hallway";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/obj/item/stack/tile/plasteel,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 4
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"mo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"mt" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"mx" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"mz" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead captain's quarters";
+	dir = 1;
+	network = list("hammerhead")
+	},
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"mI" = (
+/obj/machinery/airalarm/directional/east,
+/obj/structure/bed/dogbed/ian,
+/mob/living/simple_animal/pet/dog/corgi/Ian,
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"mL" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"mM" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"mS" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"nf" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"ng" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"nh" = (
+/obj/item/stack/sheet/metal,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/hallway)
+"nL" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"os" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"oB" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"px" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"pA" = (
+/obj/structure/table/wood,
+/obj/machinery/power/apc/auto_name/north,
+/obj/machinery/photocopier/faxmachine,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"pM" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"qi" = (
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"qn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"qp" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead executive officer's office #1";
+	dir = 8;
+	network = list("hammerhead")
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"qr" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/firelock_frame/border{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"qt" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"qA" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"qE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"qO" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"qV" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 4
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"re" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"rn" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"rE" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge)
+"rS" = (
+/obj/structure/disposalpipe/sorting/mail{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/hallway)
+"rY" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"sa" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"sv" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"sC" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"sQ" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/maintenance)
+"sR" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/structure/closet/secure_closet{
+	icon_state = "cap";
+	name = "/proper captain's locker";
+	req_access = list(20)
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"sY" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead CIC #1";
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"te" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"tn" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"tt" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"tR" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"tS" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"tX" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"up" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"uB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"uG" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"uT" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/fluff/paper/stack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"va" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"vt" = (
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"vv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"vJ" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"vU" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"wc" = (
+/obj/structure/disposalpipe/junction/flip,
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"wo" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"wP" = (
+/obj/structure/table/glass,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"wT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"xl" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"xB" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"xO" = (
+/turf/open/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"yk" = (
+/obj/structure/plaque/static_plaque/golden/captain,
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"yr" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"yI" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"yL" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"yT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"zx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"zX" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/hallway)
+"Af" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ah" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Am" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Av" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"AH" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"AX" = (
+/obj/item/stack/sheet/metal,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"AZ" = (
+/obj/item/stack/cable_coil/cut/red,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Bc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"Be" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/table_frame,
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Bf" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"BE" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"BF" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"BK" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"BT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"BV" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"BW" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ca" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Ct" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"CL" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"CR" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"Dm" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"Du" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/ruin/unpowered/hammerhead/xo)
+"DB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ec" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"Ev" = (
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"ER" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Fb" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Fm" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Fn" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Fo" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Fv" = (
+/obj/item/folder/blue,
+/obj/structure/fluff/paper/stack{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"FC" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"FE" = (
+/obj/structure/grille,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"FL" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"FN" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/hallway)
+"FW" = (
+/obj/structure/table_frame,
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Ga" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Gf" = (
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Gh" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Gk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Gm" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Gw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Gy" = (
+/obj/machinery/flasher{
+	id = "HH_XOFLASH";
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"GA" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"GR" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"GU" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"Hk" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Hr" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Ht" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Hy" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Hz" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"HQ" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"HT" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"If" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead meeting room";
+	network = list("hammerhead")
+	},
+/obj/structure/chair/office/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"IG" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"IK" = (
+/obj/item/stack/cable_coil/red,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"IT" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Ja" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"Jr" = (
+/obj/structure/table_frame,
+/obj/structure/chair/office,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"JM" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"JO" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"JS" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"JW" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/captain)
+"Kc" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain)
+"Kf" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/light/small,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Ki" = (
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/hallway)
+"Km" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"Kn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Ku" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Kv" = (
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Ky" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead executive officer's office #2";
+	dir = 1;
+	network = list("hammerhead")
+	},
+/obj/machinery/photocopier,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"KA" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/weapons)
+"KC" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
+"KD" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"KG" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain)
+"KM" = (
+/obj/item/stack/sheet/metal/ten,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"KW" = (
+/obj/effect/spawner/structure/window/reinforced/shutters,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Lb" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/power/apc/auto_name/south,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Lf" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Lg" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ll" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Lp" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/secure_data/laptop,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"Lq" = (
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Lt" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Lv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"Ly" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"LC" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"LE" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"LP" = (
+/turf/open/floor/plasteel/dark/corner{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"LQ" = (
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
+"Mg" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"MW" = (
+/obj/structure/disposalpipe/sorting/mail/flip,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"MZ" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead CIC #2";
+	dir = 4;
+	network = list("hammerhead")
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Nd" = (
+/obj/item/stack/rods/ten,
+/obj/structure/flora/grass/jungle/b{
+	icon_state = "grassb2"
+	},
+/turf/open/floor/plating/foam,
+/area/ruin/unpowered/hammerhead/weapons)
+"Ng" = (
+/turf/closed/wall,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Ni" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Np" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"NO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"NZ" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/item/megaphone/command,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Oy" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"OF" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead bridge #1";
+	network = list("hammerhead")
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"OG" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"ON" = (
+/obj/structure/fluff/paper/stack{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"OX" = (
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Pi" = (
+/obj/effect/turf_decal/arrows/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"Pn" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/chair/office/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Pp" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Pq" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Qk" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"Ql" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"Qy" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"QR" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/xo)
+"QS" = (
+/obj/structure/lattice,
+/obj/item/stack/tile/plasteel,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/hallway)
+"Rs" = (
+/obj/structure/lattice,
+/obj/machinery/nuclearbomb,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/maintenance)
+"RI" = (
+/obj/machinery/holopad,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/ruin/unpowered/hammerhead/captain)
+"RS" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"RX" = (
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"So" = (
+/turf/open/floor/engine,
+/area/ruin/unpowered/hammerhead)
+"Sw" = (
+/obj/structure/grille/broken,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"SA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/windoor_assembly{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "Executive Officer's Desk";
+	req_one_access_txt = "57"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/xo)
+"SE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Tf" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ty" = (
+/obj/machinery/airalarm/directional/north,
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"TG" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"TP" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"TU" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"TZ" = (
+/obj/structure/disposalpipe/broken,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Ub" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"Uk" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/maintenance)
+"Ul" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"UB" = (
+/obj/machinery/button/flasher{
+	id = "HH_XOFLASH";
+	pixel_x = -38;
+	pixel_y = 8
+	},
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"UM" = (
+/obj/machinery/door/airlock/command,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"Ve" = (
+/obj/machinery/light/floor,
+/turf/open/floor/engine,
+/area/ruin/unpowered/hammerhead)
+"Vr" = (
+/obj/machinery/light/dim,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Vu" = (
+/obj/structure/grille,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"VA" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"VE" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"VL" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"VN" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/frame/computer,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"VW" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/obj/item/pen/fountain/captain,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Wf" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Wg" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"Wu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Wz" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead/weapons)
+"WF" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
+"WR" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 6;
+	pixel_x = 7;
+	pixel_y = 19
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"WU" = (
+/obj/item/stack/sheet/plasteel,
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/xo)
+"WW" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/stamp/head_of_personnel,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"Xd" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead)
+"Xh" = (
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
+"Xk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Xr" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"Xs" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Xu" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Xy" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Xz" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"XP" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
+"XS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 5
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"XT" = (
+/obj/machinery/camera{
+	c_tag = "NSV Hammerhead captain's office";
+	network = list("hammerhead")
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"XU" = (
+/turf/open/floor/plating/foam,
+/area/ruin/unpowered/hammerhead/weapons)
+"YH" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"YW" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ze" = (
+/obj/machinery/door/airlock/command,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Zv" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
+"Zx" = (
+/turf/closed/wall/r_wall,
+/area/ruin/unpowered/hammerhead/bridge)
+"ZN" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"ZY" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+
+(1,1,1) = {"
+qi
+qi
+qi
+qi
+qi
+qi
+qi
+Wz
+TZ
+rS
+tX
+Lv
+ju
+nh
+ju
+ju
+ju
+ju
+ju
+LQ
+xl
+hm
+hn
+FN
+FN
+FN
+FN
+FN
+FN
+Pi
+Fm
+qt
+Ng
+Bf
+Ng
+"}
+(2,1,1) = {"
+qi
+qi
+qi
+qi
+qi
+qi
+qi
+ds
+ds
+XP
+io
+XS
+qV
+QS
+Ki
+mm
+qV
+qV
+qV
+cZ
+LC
+hm
+lc
+jp
+lc
+jp
+lc
+jp
+tR
+Gy
+Fm
+qt
+Ng
+qt
+sQ
+"}
+(3,1,1) = {"
+qi
+qi
+AX
+qi
+qi
+qi
+ds
+ds
+KA
+WF
+Xr
+Mg
+tt
+re
+zX
+RS
+mo
+mo
+mo
+mo
+gm
+hm
+QR
+fA
+fA
+fA
+fA
+fA
+SA
+QR
+QR
+qt
+Ng
+Ng
+Kv
+"}
+(4,1,1) = {"
+qi
+qi
+qi
+qi
+qi
+qi
+Xh
+Xh
+dE
+LP
+vt
+Ql
+wc
+MW
+az
+Km
+vt
+vt
+vt
+vt
+vt
+xO
+QR
+Dm
+ON
+bY
+Du
+Lp
+JS
+UB
+QR
+qt
+sQ
+Rs
+Kv
+"}
+(5,1,1) = {"
+qi
+qi
+qi
+qi
+qi
+Xh
+KA
+Zx
+Zx
+Xu
+BW
+rE
+hA
+Ly
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+QR
+pA
+sv
+Ja
+cR
+eH
+ig
+WW
+QR
+qt
+qt
+sQ
+Kv
+"}
+(6,1,1) = {"
+qi
+qi
+IK
+qi
+qi
+KM
+px
+Zx
+Af
+hq
+hq
+hq
+CL
+Fb
+xB
+mS
+Ku
+xB
+BT
+xB
+xB
+kH
+vU
+nf
+fB
+ia
+Bc
+Fv
+ig
+Ky
+QR
+Fm
+Fm
+Fm
+Kv
+"}
+(7,1,1) = {"
+qi
+qi
+qi
+qi
+XU
+XU
+Sw
+Zx
+Ul
+wo
+dp
+dp
+SE
+TG
+KD
+KD
+BF
+cA
+cA
+cA
+cA
+fp
+QR
+yT
+cR
+kO
+vv
+CR
+cR
+aR
+QR
+So
+cH
+Fm
+Uk
+"}
+(8,1,1) = {"
+qi
+qi
+qi
+XU
+XU
+Xh
+rY
+Zx
+Ul
+cA
+cA
+mL
+Gw
+sa
+IG
+cA
+qE
+cA
+cA
+tn
+cA
+fp
+QR
+TU
+qO
+qp
+mI
+cR
+cR
+cR
+WU
+So
+cH
+Qk
+lt
+"}
+(9,1,1) = {"
+qi
+qi
+XU
+XU
+XU
+Xh
+Ca
+Zx
+OF
+cA
+cA
+cA
+cA
+by
+ho
+gR
+Tf
+ho
+ER
+fI
+DB
+TP
+QR
+QR
+lH
+QR
+QR
+QR
+QR
+QR
+QR
+So
+cH
+cH
+lt
+"}
+(10,1,1) = {"
+qi
+qi
+qi
+XU
+qi
+Xh
+AZ
+Zx
+Be
+cA
+cA
+cA
+Fo
+cA
+cA
+uG
+yr
+cA
+cl
+cA
+Ah
+os
+sC
+aW
+AH
+jf
+MZ
+Kn
+JM
+cN
+FC
+So
+Ve
+cH
+lt
+"}
+(11,1,1) = {"
+qi
+AX
+qi
+XU
+XU
+KA
+Sw
+Zx
+BK
+Lg
+BE
+Ni
+uT
+Hz
+rn
+Pp
+qA
+eo
+YW
+eo
+eW
+Gk
+Ht
+cN
+cN
+uB
+OX
+qn
+cN
+cN
+FC
+So
+So
+So
+lt
+"}
+(12,1,1) = {"
+qi
+qi
+XU
+XU
+XU
+KA
+rY
+VE
+VE
+VE
+VE
+VE
+JW
+JW
+JW
+Ze
+JW
+Ll
+ZN
+va
+jw
+Ll
+Ll
+te
+qr
+mx
+te
+FL
+HQ
+te
+as
+So
+So
+So
+lt
+"}
+(13,1,1) = {"
+qi
+qi
+qi
+Nd
+XU
+KA
+rY
+VE
+Ty
+HT
+Lq
+UM
+Ec
+in
+VW
+Ga
+JW
+cy
+kB
+hj
+NO
+Hy
+Ll
+GA
+kb
+Xz
+Hk
+Xy
+kb
+up
+FC
+So
+Ve
+So
+lt
+"}
+(14,1,1) = {"
+qi
+qi
+XU
+XU
+AX
+KA
+rY
+VE
+Pq
+pM
+Lb
+VE
+Gf
+iJ
+ke
+Np
+JW
+YH
+yL
+wP
+Qy
+Lt
+Ll
+VN
+wT
+Ct
+bP
+Wu
+bE
+Hr
+FC
+So
+So
+So
+lt
+"}
+(15,1,1) = {"
+qi
+XU
+XU
+qi
+XU
+KA
+rY
+VE
+Pq
+pM
+Kf
+VE
+Gf
+FW
+Jr
+Xk
+JW
+YH
+kA
+wP
+Qy
+Lt
+Ll
+mb
+Xs
+Am
+Wf
+mt
+jX
+VA
+FC
+So
+So
+So
+lt
+"}
+(16,1,1) = {"
+XU
+XU
+Xh
+KA
+KA
+KA
+rY
+VE
+Pq
+pM
+mz
+VE
+XT
+Gf
+RI
+Vr
+JW
+If
+wP
+wP
+WR
+gv
+Ll
+nL
+Wf
+Wf
+oB
+Wf
+Wf
+VA
+FC
+So
+Ve
+So
+lt
+"}
+(17,1,1) = {"
+Ub
+bV
+IT
+IT
+IT
+IT
+Vu
+VE
+iD
+vJ
+Pq
+VE
+KG
+KG
+Zv
+zx
+JW
+lm
+wP
+wP
+Qy
+Lt
+mM
+mb
+Wf
+tS
+lC
+iX
+Wf
+VA
+FC
+So
+So
+So
+lt
+"}
+(18,1,1) = {"
+GR
+KA
+KA
+KA
+KA
+KA
+KA
+yk
+Lf
+yI
+Pq
+VE
+mg
+mg
+Gf
+bp
+JW
+YH
+wP
+bC
+JO
+Lt
+Ll
+sY
+ey
+ls
+LE
+Fn
+ey
+VA
+FC
+So
+So
+So
+lt
+"}
+(19,1,1) = {"
+Ev
+Qk
+GU
+Qk
+GU
+Qk
+So
+VE
+BV
+NZ
+sR
+VE
+Av
+KG
+Gf
+Gf
+JW
+Pn
+wP
+Oy
+wP
+Lt
+Ll
+fh
+OG
+OG
+OG
+OG
+OG
+ZY
+FC
+So
+Xd
+So
+lt
+"}
+(20,1,1) = {"
+GU
+Qk
+Qk
+Wg
+Qk
+Qk
+So
+VE
+VE
+KW
+KW
+VE
+KC
+KC
+KC
+KC
+Kc
+Hy
+Hy
+Gm
+Hy
+Hy
+Gh
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+cH
+cH
+So
+lt
+"}
+(21,1,1) = {"
+GU
+Ev
+Qk
+Qk
+GU
+Qk
+cH
+So
+So
+Ve
+So
+So
+Ve
+So
+So
+Ve
+Gh
+va
+va
+va
+va
+va
+Gh
+So
+So
+So
+So
+So
+So
+So
+So
+cH
+lt
+Qk
+fL
+"}
+(22,1,1) = {"
+GU
+Wg
+Ev
+Qk
+GU
+Qk
+cH
+cH
+cH
+So
+So
+So
+So
+So
+So
+So
+So
+So
+Ve
+So
+So
+Ve
+So
+So
+Ve
+cH
+cH
+Ve
+So
+So
+Ve
+So
+RX
+ng
+lt
+"}
+(23,1,1) = {"
+Qk
+Qk
+GU
+Qk
+GU
+Qk
+lt
+lt
+lt
+lt
+Qk
+lt
+lt
+fL
+Qk
+lt
+So
+So
+So
+So
+So
+So
+cH
+cH
+cH
+cH
+So
+So
+So
+So
+So
+So
+lt
+ng
+lt
+"}
+(24,1,1) = {"
+Qk
+Ev
+Wg
+Qk
+GU
+lt
+lt
+lt
+lt
+ng
+Qk
+Qk
+ng
+Qk
+ng
+Ev
+lt
+lt
+lt
+lt
+Qk
+RX
+FE
+lt
+lt
+lt
+Qk
+lt
+lt
+fL
+lt
+lt
+lt
+Qk
+lt
+"}
+(25,1,1) = {"
+GU
+Wg
+Ev
+Ev
+Ev
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+lt
+fL
+ng
+Qk
+ng
+Qk
+Qk
+ng
+Qk
+Qk
+ng
+VL
+Qk
+Qk
+VL
+ng
+ng
+lt
+"}

@@ -2,6 +2,39 @@
 "ad" = (
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/captain)
+"aj" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"ar" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"at" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 6;
+	pixel_x = 7;
+	pixel_y = 19
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "az" = (
 /obj/machinery/camera{
 	c_tag = "NSV Hammerhead executive officer's office #1";
@@ -15,12 +48,37 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "aN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/carpet/nanoweave,
-/area/ruin/unpowered/hammerhead/bridge)
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "aY" = (
 /obj/structure/grille/broken,
+/obj/structure/flora/grass/jungle/b{
+	icon_state = "grassb2"
+	},
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"bg" = (
+/obj/machinery/flasher{
+	id = "HH_XOFLASH";
+	pixel_y = -24
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"bp" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"bD" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "bE" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue{
@@ -30,12 +88,72 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"bN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"bQ" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"bT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/frame/computer{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "bY" = (
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"cg" = (
+/obj/structure/flora/junglebush/large,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"cI" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"cO" = (
+/obj/structure/disposalpipe/sorting/mail{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/hallway)
 "do" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
@@ -46,6 +164,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
+"dx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "dE" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -56,10 +183,71 @@
 "eb" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
 "ee" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/weapons)
+"eg" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"en" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"eq" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"eC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"eN" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree3"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"fe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"fn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "fs" = (
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/template_noop)
@@ -72,12 +260,15 @@
 /turf/closed/wall,
 /area/ruin/unpowered/hammerhead/captain)
 "fC" = (
-/obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
+	},
+/obj/structure/table_frame,
+/obj/item/shard{
+	icon_state = "medium"
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
@@ -100,6 +291,19 @@
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered/hammerhead/weapons)
+"gm" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
 "gt" = (
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/xo)
@@ -107,10 +311,40 @@
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"gz" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
 "gG" = (
 /obj/machinery/holopad,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/xo)
+"gP" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead)
+"gQ" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/light/small,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"gU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "ha" = (
 /obj/structure/grille/broken,
 /obj/structure/cable{
@@ -132,6 +366,21 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"hh" = (
+/obj/structure/disposalpipe/junction/flip,
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"hl" = (
+/obj/machinery/computer/communications{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "hC" = (
@@ -148,16 +397,123 @@
 "hM" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"iB" = (
+/obj/structure/lattice,
+/obj/item/stack/tile/plasteel,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/hallway)
 "iG" = (
 /obj/structure/table/wood,
+/obj/machinery/computer/secure_data/laptop,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
+"iH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"jm" = (
+/obj/structure/lattice,
+/obj/structure/flora/junglebush/large{
+	icon_state = "bush2"
+	},
+/obj/machinery/nuclearbomb,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/maintenance)
+"jr" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "kn" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered/hammerhead/maintenance)
+"kq" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "kt" = (
 /obj/machinery/door/airlock/command,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"kx" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"kI" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"kN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"kO" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/structure/closet/secure_closet{
+	icon_state = "cap";
+	name = "/proper captain's locker";
+	req_access = list(20)
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"kZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/xo)
 "lc" = (
@@ -172,6 +528,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"lq" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "lE" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
@@ -184,15 +547,54 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/item/paper_bin,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "lO" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"lT" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"lX" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"mO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"mT" = (
+/obj/structure/flora/junglebush,
+/turf/open/floor/plating/foam,
+/area/ruin/unpowered/hammerhead/weapons)
+"nd" = (
+/obj/structure/flora/junglebush/c{
+	icon_state = "bushb1"
+	},
+/obj/structure/lattice,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
 "nj" = (
 /obj/machinery/airalarm/directional/north,
+/obj/structure/chair/office/light,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "nH" = (
@@ -209,8 +611,17 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner,
+/obj/structure/chair/office{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"nY" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
 "or" = (
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
@@ -230,10 +641,19 @@
 	dir = 1;
 	network = list("hammerhead")
 	},
+/obj/machinery/photocopier,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
+"oB" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
 "oF" = (
 /obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/item/disk/nuclear/fake,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "oH" = (
@@ -250,6 +670,26 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"oI" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "oP" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -262,6 +702,12 @@
 	},
 /area/ruin/unpowered/hammerhead/hallway)
 "pc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
@@ -271,9 +717,33 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"pm" = (
+/obj/structure/table/wood,
+/obj/machinery/power/apc/auto_name/north,
+/obj/machinery/photocopier/faxmachine,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
 "pA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
@@ -285,6 +755,23 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"pH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"pP" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"pT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "pX" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -298,8 +785,38 @@
 	dir = 4;
 	network = list("hammerhead")
 	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"qa" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"qy" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"qD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "qE" = (
 /obj/item/stack/sheet/plasteel,
 /obj/structure/girder/reinforced,
@@ -307,6 +824,19 @@
 /area/ruin/unpowered/hammerhead/xo)
 "qM" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/windoor_assembly{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	name = "Executive Officer's Desk";
+	req_one_access_txt = "57"
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/xo)
 "qP" = (
@@ -326,6 +856,16 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"rQ" = (
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead)
+"rS" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
 "rU" = (
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating,
@@ -335,15 +875,69 @@
 	c_tag = "NSV Hammerhead meeting room";
 	network = list("hammerhead")
 	},
+/obj/structure/chair/office/light,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
+"sd" = (
+/obj/structure/flora/tree/jungle/small,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
 "si" = (
 /obj/machinery/door/airlock/command/glass,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"so" = (
+/obj/structure/disposalpipe/sorting/mail/flip,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
 "ss" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
+"st" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/computer/communications{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"sz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"sC" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"sD" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/glitter/pink,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
 "sF" = (
 /turf/closed/wall,
 /area/ruin/unpowered/hammerhead/maintenance)
@@ -355,8 +949,20 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"sM" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "sR" = (
 /obj/structure/table/glass,
 /turf/open/floor/wood,
@@ -364,14 +970,87 @@
 "sT" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/xo)
+"ta" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"tp" = (
+/obj/machinery/pdapainter,
+/obj/machinery/light,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"tr" = (
+/obj/machinery/light/dim,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"tu" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"tA" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"tW" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"tY" = (
+/obj/structure/flora/grass/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/maintenance)
 "ub" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"ue" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"uj" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/checker,
 /area/ruin/unpowered/hammerhead/hallway)
 "uo" = (
+/obj/effect/decal/cleanable/glitter/pink,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "up" = (
 /obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/xo)
 "us" = (
@@ -384,10 +1063,38 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"uz" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/item/megaphone/command,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"uY" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/light/small/broken{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"vf" = (
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "vi" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
+/area/ruin/unpowered/hammerhead/xo)
+"vG" = (
+/obj/item/folder/blue,
+/obj/structure/fluff/paper/stack{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
 "vO" = (
 /obj/effect/turf_decal/tile/blue{
@@ -402,12 +1109,24 @@
 "vQ" = (
 /turf/closed/wall,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"vU" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
 "wi" = (
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "wl" = (
-/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/structure/firelock_frame/border{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "wE" = (
@@ -424,6 +1143,17 @@
 /obj/effect/turf_decal/arrows/red,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
+"wP" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/obj/item/pen/fountain/captain,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "wS" = (
 /obj/structure/table/glass,
 /turf/open/floor/carpet/nanoweave,
@@ -433,18 +1163,59 @@
 /area/ruin/unpowered/hammerhead/hallway)
 "xf" = (
 /obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
+"xg" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
+"xG" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "xM" = (
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered/hammerhead/weapons)
 "xS" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/xo)
 "xU" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
@@ -452,14 +1223,83 @@
 "ya" = (
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"yf" = (
+/obj/machinery/door/airlock/command,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"yk" = (
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"yq" = (
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
+"yw" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"yE" = (
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
 "zj" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered/hammerhead/weapons)
+"zC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
 "zQ" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/captain/quarters)
+"Ai" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Aq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/captain)
 "AG" = (
 /obj/structure/grille,
 /obj/structure/cable{
@@ -470,6 +1310,30 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"AH" = (
+/obj/effect/decal/cleanable/glitter/pink,
+/obj/machinery/power/apc/auto_name/south,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/captain/quarters)
+"AI" = (
+/obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"AX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "Bp" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -477,6 +1341,40 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"Bz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"BA" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"BD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "BF" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -488,15 +1386,23 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/structure/chair/office{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"BH" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "BL" = (
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain)
 "BO" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
 "Cc" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -510,6 +1416,21 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"Cf" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"Co" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"Cp" = (
+/obj/structure/disposalpipe/broken,
+/turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/weapons)
 "Cq" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -518,15 +1439,55 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/computer/helm{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "CA" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/maintenance)
+"CT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "Dg" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Dh" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Do" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Dt" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -540,6 +1501,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"DN" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "El" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -551,12 +1518,41 @@
 /area/ruin/unpowered/hammerhead/bridge)
 "Es" = (
 /obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"EC" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"EX" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "Fj" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
+"FA" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "FF" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -566,14 +1562,60 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"FI" = (
+/obj/structure/flora/junglebush/b,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/maintenance)
+"FY" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "Gb" = (
 /obj/item/stack/rods/ten,
+/obj/structure/flora/grass/jungle/b{
+	icon_state = "grassb2"
+	},
 /turf/open/floor/plating/foam,
 /area/ruin/unpowered/hammerhead/weapons)
+"Gc" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/power/apc/auto_name/west,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Ge" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/ruin/unpowered/hammerhead)
 "Gj" = (
 /obj/item/stack/rods,
 /turf/template_noop,
 /area/template_noop)
+"Gm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "Gn" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/bridge)
@@ -581,6 +1623,9 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "GA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark/side{
 	dir = 5
 	},
@@ -591,6 +1636,10 @@
 	dir = 4;
 	network = list("hammerhead")
 	},
+/obj/item/stack/tile/plasteel,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark/side{
 	dir = 4
 	},
@@ -598,20 +1647,78 @@
 "GG" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/maintenance)
+"GL" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"GT" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"GZ" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "Hm" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/xo)
+"Ho" = (
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "Hq" = (
 /turf/open/floor/plasteel/dark/side{
 	dir = 4
 	},
 /area/ruin/unpowered/hammerhead/hallway)
+"HU" = (
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "Ic" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"If" = (
+/obj/structure/lattice,
+/obj/structure/flora/grass/jungle,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead/xo)
 "Io" = (
+/obj/machinery/power/apc/auto_name/west,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/captain)
 "Is" = (
@@ -638,15 +1745,87 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/structure/frame/computer,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "IR" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
-/turf/open/floor/plating,
+/obj/structure/flora/grass/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"IU" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "Ja" = (
 /turf/closed/wall,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
+"Jj" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/fluff/paper/stack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"JC" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"JK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 8
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"JN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark/side,
+/area/ruin/unpowered/hammerhead/hallway)
+"JX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Kc" = (
+/obj/structure/fluff/paper/stack{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
+"Kq" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "KA" = (
 /obj/item/stack/cable_coil/red,
 /turf/open/floor/plating/grass/jungle,
@@ -663,6 +1842,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
+"KS" = (
+/obj/structure/flora/grass/jungle/b{
+	icon_state = "grassa4"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
 "Lb" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
@@ -677,17 +1862,42 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"Lo" = (
+/obj/structure/lattice,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead/hallway)
 "Ly" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/bridge)
+"LB" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "LT" = (
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
+"Mv" = (
+/obj/structure/table_frame,
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "Mz" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
 "MR" = (
 /obj/machinery/camera{
 	c_tag = "NSV Hammerhead captain's office";
@@ -712,6 +1922,27 @@
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"NV" = (
+/obj/structure/flora/junglebush/c{
+	icon_state = "busha2"
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead/hallway)
+"NX" = (
+/obj/structure/table/glass,
+/obj/structure/fluff/paper/stack{
+	dir = 5
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Ov" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "OY" = (
 /obj/structure/grille,
 /obj/structure/cable{
@@ -722,6 +1953,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"Pf" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
 "Pk" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -730,6 +1968,7 @@
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/west,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "Pt" = (
@@ -755,17 +1994,73 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"Qr" = (
+/obj/structure/table_frame,
+/obj/structure/chair/office,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/captain)
 "QG" = (
 /obj/item/stack/sheet/metal/ten,
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
+"QM" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "QT" = (
 /obj/structure/grille,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
+"QV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "Rj" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"Rn" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
+"Ro" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Rv" = (
+/obj/structure/flora/grass/jungle/b{
+	icon_state = "grassb3"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/ruin/unpowered/hammerhead/weapons)
+"RF" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "RJ" = (
 /obj/machinery/camera{
@@ -773,6 +2068,7 @@
 	dir = 1;
 	network = list("hammerhead")
 	},
+/obj/effect/decal/cleanable/glitter/pink,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "RM" = (
@@ -782,15 +2078,28 @@
 /obj/structure/lattice,
 /obj/structure/grille/broken,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
 "RX" = (
 /turf/open/floor/plasteel/dark/corner{
 	dir = 1
 	},
 /area/ruin/unpowered/hammerhead/hallway)
+"Se" = (
+/obj/structure/flora/rock/jungle{
+	icon_state = "rock5"
+	},
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead/hallway)
 "Sg" = (
 /turf/template_noop,
 /area/template_noop)
+"SU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "SV" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/maintenance)
@@ -798,6 +2107,24 @@
 /turf/open/floor/plasteel/dark/side{
 	dir = 6
 	},
+/area/ruin/unpowered/hammerhead/hallway)
+"To" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Ts" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/checker,
 /area/ruin/unpowered/hammerhead/hallway)
 "TC" = (
 /obj/machinery/holopad,
@@ -815,30 +2142,148 @@
 	dir = 4;
 	network = list("hammerhead")
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/carpet/nanoweave,
-/area/ruin/unpowered/hammerhead/bridge)
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"TZ" = (
+/obj/structure/chair/office/light,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Um" = (
+/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/war_room)
+"Un" = (
+/obj/structure/lattice,
+/obj/structure/flora/rock/jungle{
+	icon_state = "rock3"
+	},
+/turf/open/floor/plating/dirt/jungle/dark,
+/area/ruin/unpowered/hammerhead)
 "Uq" = (
 /obj/structure/table/glass,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "Uy" = (
 /obj/machinery/door/airlock/command,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/captain)
+"UJ" = (
+/obj/machinery/button/flasher{
+	id = "HH_XOFLASH";
+	pixel_x = -38;
+	pixel_y = 8
+	},
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 1
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
 "UL" = (
 /obj/machinery/airalarm/directional/north,
+/obj/effect/decal/cleanable/glitter/pink,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain/quarters)
+"UO" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/checker,
+/area/ruin/unpowered/hammerhead/hallway)
+"UP" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"UV" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"UY" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/side{
+	dir = 1
+	},
+/area/ruin/unpowered/hammerhead/hallway)
+"VC" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/bridge/cic)
+"VM" = (
+/obj/structure/table/wood,
+/obj/item/pen/red{
+	pixel_x = -13;
+	pixel_y = 6
+	},
+/obj/item/pen/blue{
+	pixel_x = -17
+	},
+/obj/machinery/computer/med_data/laptop,
+/turf/open/floor/carpet/nanoweave,
+/area/ruin/unpowered/hammerhead/xo)
 "We" = (
+/obj/structure/frame/computer{
+	dir = 4
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
+/area/ruin/unpowered/hammerhead/xo)
+"WA" = (
+/obj/machinery/newscaster,
+/turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/xo)
 "WQ" = (
 /obj/structure/grille,
 /obj/structure/lattice,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/template_noop)
+/area/ruin/unpowered/hammerhead)
 "WS" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue{
@@ -863,17 +2308,55 @@
 	},
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/weapons)
+"Xm" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"XB" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "XK" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
 /area/ruin/unpowered/hammerhead/xo)
+"XW" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge/cic)
 "Ym" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/captain)
+"Yo" = (
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
 "YS" = (
 /turf/open/floor/plating/foam,
 /area/ruin/unpowered/hammerhead/weapons)
+"YX" = (
+/obj/structure/fluff/paper/stack{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ruin/unpowered/hammerhead/xo)
 "Zh" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -887,6 +2370,30 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
+"Zl" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
+"Zy" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 "ZF" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -899,6 +2406,19 @@
 "ZI" = (
 /turf/open/floor/plating/grass/jungle,
 /area/ruin/unpowered/hammerhead/maintenance)
+"ZV" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/unpowered/hammerhead/bridge)
 
 (1,1,1) = {"
 Is
@@ -906,22 +2426,22 @@ Is
 Is
 Is
 Is
+KS
 Is
-Is
-Is
-Is
-dU
+Cf
+Cp
+cO
 ub
-fv
+UY
 xc
-xc
+Se
 xc
 xc
 xc
 xc
 xc
 dU
-ub
+Co
 fv
 RM
 TM
@@ -940,25 +2460,25 @@ sF
 (2,1,1) = {"
 Is
 Is
+eN
 Is
 Is
 Is
 Is
-Is
-Is
-Is
-dU
-ub
+nd
+lT
+oB
+JC
 GA
 Hq
-Hq
-Hq
+iB
+NV
 GE
 Hq
 Hq
 Hq
 Th
-ub
+fe
 fv
 wF
 ss
@@ -967,7 +2487,7 @@ ss
 wF
 ss
 wi
-ss
+bg
 SV
 GG
 sF
@@ -979,23 +2499,23 @@ Is
 Is
 gg
 Is
+Rv
 Is
-Is
-Is
-Is
+lT
+lT
 ee
-dU
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
-ub
+JN
+en
+iH
+tA
+UO
+Lo
+gm
+uj
+uj
+uj
+uj
+Ts
 fv
 sT
 Hm
@@ -1009,7 +2529,7 @@ sT
 GG
 sF
 sF
-ZI
+tY
 "}
 (4,1,1) = {"
 Is
@@ -1018,16 +2538,16 @@ Is
 Is
 Is
 Is
-Is
-Is
+hM
+hM
 WT
 Pt
 oY
-oY
-oY
-oY
-oY
-oY
+kN
+hh
+so
+GT
+JK
 oY
 oY
 oY
@@ -1036,33 +2556,33 @@ oY
 RX
 sT
 up
-gt
-gt
+YX
+Yo
 We
 iG
-or
-or
+tu
+UJ
 sT
 GG
 kn
-kn
+jm
 ZI
 "}
 (5,1,1) = {"
 Is
 Is
 Is
-Is
+cg
 Is
 hM
 ee
 Gn
 Gn
 si
-si
+ar
 Ly
-si
-si
+kq
+oI
 Gn
 Gn
 Gn
@@ -1072,13 +2592,13 @@ Gn
 Gn
 Gn
 sT
-up
+pm
 vi
+nY
 gt
-gt
-iG
+VM
 or
-iG
+Rn
 sT
 GG
 GG
@@ -1098,33 +2618,33 @@ KF
 FF
 FF
 FF
-FF
-FF
-FF
-FF
-FF
-FF
+XB
+Ai
+Xm
+Zy
+Gc
+Xm
 Pk
-FF
-FF
+Xm
+Xm
 pX
 kt
-gt
-gt
+bN
+kZ
 gG
 do
-or
+vG
 or
 oy
 sT
 SV
 SV
 SV
-ZI
+FI
 "}
 (7,1,1) = {"
 Is
-Is
+yk
 Is
 Is
 YS
@@ -1132,14 +2652,14 @@ YS
 wE
 Gn
 El
-fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
+pT
+ue
+ue
+pH
+Zl
+sC
+sC
+qy
 fE
 fE
 fE
@@ -1148,11 +2668,11 @@ pk
 sT
 pc
 gt
-gt
-gt
+If
+zC
 XK
 gt
-gt
+tp
 sT
 bY
 bY
@@ -1171,19 +2691,19 @@ Gn
 El
 fE
 fE
-fE
-fE
-fE
+FA
+EC
+Ro
 Qb
 fE
+eC
 fE
 fE
-fE
-fE
+yw
 fE
 pk
 sT
-gt
+xg
 xS
 az
 MX
@@ -1199,7 +2719,7 @@ Sg
 (9,1,1) = {"
 Is
 Is
-YS
+mT
 YS
 YS
 hM
@@ -1210,18 +2730,18 @@ fE
 fE
 fE
 fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
-fE
-pk
+EX
+LB
+xG
+kx
+LB
+UP
+sz
+gU
+GZ
 sT
 sT
-sT
+WA
 sT
 sT
 sT
@@ -1238,7 +2758,7 @@ Is
 Is
 Is
 YS
-Is
+sd
 hM
 rU
 Gn
@@ -1249,29 +2769,29 @@ fE
 gx
 fE
 fE
+Do
+fn
 fE
+ta
 fE
-fE
-fE
-fE
-fE
-pk
+SU
+IU
 Es
 aN
-aN
-aN
+BD
+Bz
 TU
-aN
-aN
-aN
-IR
+VC
+Kq
+HU
+Rj
 bY
-bY
+gP
 bY
 Sg
 "}
 (11,1,1) = {"
-Is
+IR
 gg
 Is
 YS
@@ -1280,28 +2800,28 @@ ee
 wE
 Gn
 bE
-Bp
-Bp
-Bp
+eg
+st
+bT
+Jj
 IH
-IH
-IH
+jr
+lX
+QM
 Bp
+ZV
 Bp
-Bp
-Bp
-Bp
-Bp
+CT
 sK
-Es
-aN
-aN
-aN
-aN
-aN
-aN
-aN
-IR
+Ov
+HU
+HU
+QV
+Ho
+mO
+HU
+HU
+Rj
 bY
 bY
 bY
@@ -1328,15 +2848,15 @@ fy
 Ja
 xf
 Fj
-xf
+Um
 Ja
 Ja
 vQ
 wl
-wl
+BA
 vQ
-wl
-wl
+aj
+tW
 vQ
 Gv
 bY
@@ -1354,30 +2874,30 @@ ee
 AG
 zQ
 UL
-uo
-uo
-uo
+rS
+yE
+yf
 xU
 Io
-sR
-ad
+wP
+eq
 fy
-LT
-LT
-LT
-LT
+AI
+sM
+DN
+JX
 LT
 Ja
 qV
 ZF
-ZF
-ZF
-ZF
+RF
+bQ
+kI
 ZF
 lM
 Rj
 bY
-bY
+gP
 bY
 Sg
 "}
@@ -1391,25 +2911,25 @@ ee
 AG
 zQ
 uo
-uo
-uo
+vU
+AH
 zQ
 ad
-ad
+Kc
 sR
 pA
 fy
-LT
+bp
+cI
 Uq
-Uq
-Uq
-LT
+vf
+bD
 Ja
 IK
 BF
-lE
-lE
-lE
+UV
+hl
+qD
 nX
 hb
 Rj
@@ -1428,25 +2948,25 @@ ee
 AG
 zQ
 uo
-uo
-uo
+vU
+gQ
 zQ
 ad
-sR
-sR
-ad
+Mv
+Qr
+Gm
 fy
-LT
+bp
+GL
 Uq
-Uq
-Uq
-LT
+vf
+bD
 Ja
 DL
 vO
+pP
 lE
-lE
-lE
+Dt
 lc
 Dg
 Rj
@@ -1465,19 +2985,19 @@ ee
 AG
 zQ
 uo
-uo
+vU
 RJ
 zQ
 MR
 ad
 TC
-ad
+tr
 fy
 rY
 Uq
 Uq
-Uq
-LT
+at
+Pf
 Ja
 Qk
 lE
@@ -1488,7 +3008,7 @@ lE
 Dg
 Rj
 bY
-bY
+gP
 bY
 Sg
 "}
@@ -1502,24 +3022,24 @@ Le
 OY
 zQ
 oF
-uo
+gz
 uo
 zQ
 BL
 BL
-Io
-ad
+Aq
+dx
 fy
-LT
+TZ
 Uq
 Uq
-Uq
-LT
-xf
+vf
+bD
+Dh
 DL
 lE
 fQ
-ZF
+FY
 us
 lE
 Dg
@@ -1538,27 +3058,27 @@ ee
 ee
 ee
 aB
-oF
-uo
+qa
+sD
 uo
 zQ
 wS
 wS
 ad
-ad
+AX
 fy
-LT
+bp
 Uq
-Uq
-Uq
-LT
+NX
+lq
+bD
 Ja
 oH
-lE
+XW
 Zh
 Cq
 Cc
-lE
+XW
 Dg
 Rj
 bY
@@ -1567,17 +3087,17 @@ bY
 Sg
 "}
 (19,1,1) = {"
-Sg
+yq
 Mz
 BO
 Mz
 BO
-Ic
+Un
 bY
 zQ
-oF
-oF
-uo
+uY
+uz
+kO
 zQ
 PD
 BL
@@ -1586,9 +3106,9 @@ ad
 fy
 nj
 Uq
+BH
 Uq
-Uq
-LT
+bD
 Ja
 hC
 NH
@@ -1599,7 +3119,7 @@ NH
 ot
 Rj
 bY
-bY
+gP
 bY
 Sg
 "}
@@ -1607,12 +3127,12 @@ Sg
 BO
 Ic
 Ic
-Gj
+Ge
 Ic
 Ic
 bY
 zQ
-Lb
+zQ
 Lb
 Lb
 zQ
@@ -1623,7 +3143,7 @@ qP
 Ym
 LT
 LT
-LT
+To
 LT
 LT
 nH
@@ -1642,7 +3162,7 @@ Sg
 "}
 (21,1,1) = {"
 BO
-Sg
+yq
 Mz
 Ic
 BO
@@ -1650,13 +3170,13 @@ Ic
 bY
 bY
 bY
+gP
 bY
 bY
+gP
 bY
 bY
-bY
-bY
-bY
+gP
 nH
 Fj
 Fj
@@ -1679,8 +3199,8 @@ Gj
 "}
 (22,1,1) = {"
 BO
-Gj
-Sg
+Ge
+yq
 Mz
 eb
 Mz
@@ -1696,19 +3216,19 @@ bY
 bY
 bY
 bY
+gP
 bY
 bY
+gP
 bY
 bY
+gP
 bY
 bY
+gP
 bY
 bY
-bY
-bY
-bY
-bY
-bY
+gP
 bY
 ya
 WQ
@@ -1753,8 +3273,8 @@ Sg
 "}
 (24,1,1) = {"
 Ic
-Sg
-Gj
+yq
+Ge
 Ic
 BO
 Sg
@@ -1767,7 +3287,7 @@ Mz
 WQ
 Ic
 WQ
-fs
+rQ
 Sg
 Sg
 Sg
@@ -1790,10 +3310,10 @@ Sg
 "}
 (25,1,1) = {"
 BO
-Gj
-Sg
-Sg
-Sg
+Ge
+yq
+yq
+yq
 Sg
 Sg
 Sg
