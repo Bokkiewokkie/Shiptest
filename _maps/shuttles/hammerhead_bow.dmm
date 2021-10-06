@@ -4,9 +4,7 @@
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "az" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "aR" = (
 /obj/machinery/pdapainter,
@@ -47,19 +45,19 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "bE" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/corner,
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/effect/turf_decal/industrial/warning/corner,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "bP" = (
@@ -112,11 +110,6 @@
 "cR" = (
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/xo)
-"cZ" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 6
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "dp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /turf/open/floor/plasteel/dark,
@@ -136,10 +129,10 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/weapons)
 "eo" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "ey" = (
@@ -159,10 +152,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
 "eW" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
@@ -170,20 +163,20 @@
 /area/ruin/unpowered/hammerhead/bridge)
 "fh" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "fp" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
@@ -214,10 +207,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
-"fL" = (
-/obj/item/stack/rods,
-/turf/template_noop,
-/area/template_noop)
 "gm" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 9
@@ -228,7 +217,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "gv" = (
 /obj/structure/chair/office/light{
@@ -258,11 +247,6 @@
 	},
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
-"hm" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 1
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "hn" = (
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/hallway)
@@ -275,10 +259,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "hq" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -327,7 +311,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "iD" = (
 /obj/structure/table/wood,
@@ -342,11 +326,11 @@
 /turf/open/floor/wood,
 /area/ruin/unpowered/hammerhead/captain)
 "iX" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -382,22 +366,22 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "jX" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/industrial/warning{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "kb" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -426,13 +410,13 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "kH" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/camera{
 	c_tag = "NSV Hammerhead bridge #2";
 	dir = 4;
@@ -458,7 +442,7 @@
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead/xo)
 "lc" = (
-/obj/effect/turf_decal/arrows/red,
+/obj/effect/turf_decal/arrows,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "lm" = (
@@ -469,14 +453,14 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "ls" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
@@ -485,10 +469,10 @@
 /turf/template_noop,
 /area/template_noop)
 "lC" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /obj/structure/chair/office{
@@ -501,10 +485,10 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/xo)
 "mb" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -519,13 +503,10 @@
 	dir = 4;
 	network = list("hammerhead")
 	},
-/obj/item/stack/tile/plasteel,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 4
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "mo" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -533,7 +514,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "mt" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -565,8 +546,6 @@
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "mI" = (
 /obj/machinery/airalarm/directional/east,
-/obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/Ian,
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
 	},
@@ -585,10 +564,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "mS" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
@@ -613,25 +592,21 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead)
-"nh" = (
-/obj/item/stack/sheet/metal,
-/turf/template_noop,
-/area/ruin/unpowered/hammerhead/hallway)
 "nL" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "os" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
 	dir = 1
 	},
@@ -700,10 +675,10 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/maintenance)
 "qA" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -722,11 +697,6 @@
 "qO" = (
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/xo)
-"qV" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 4
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "re" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
@@ -738,17 +708,14 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "rn" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -819,10 +786,10 @@
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "sY" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /obj/machinery/camera{
@@ -847,20 +814,16 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/checker,
-/area/ruin/unpowered/hammerhead/hallway)
-"tR" = (
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "tS" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -871,15 +834,15 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "up" = (
 /obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /obj/item/paper_bin,
@@ -905,10 +868,10 @@
 /area/ruin/unpowered/hammerhead/bridge)
 "uT" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/structure/fluff/paper/stack{
 	dir = 4
 	},
@@ -918,11 +881,6 @@
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
-"vt" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "vv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -953,9 +911,7 @@
 /area/ruin/unpowered/hammerhead/xo)
 "wc" = (
 /obj/structure/disposalpipe/junction/flip,
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "wo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -966,17 +922,17 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "wT" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/stripes/corner{
+/obj/effect/turf_decal/corner/blue,
+/obj/structure/chair/office{
 	dir = 4
 	},
-/obj/structure/chair/office{
+/obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -985,23 +941,18 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "xB" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
-"xO" = (
-/turf/open/floor/plasteel/dark/corner{
-	dir = 1
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "yk" = (
 /obj/structure/plaque/static_plaque/golden/captain,
 /turf/closed/wall/r_wall,
@@ -1056,18 +1007,6 @@
 	},
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead/hallway)
-"Af" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/unpowered/hammerhead/bridge)
 "Ah" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -1095,10 +1034,6 @@
 	},
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/cic)
-"AX" = (
-/obj/item/stack/sheet/metal,
-/turf/template_noop,
-/area/ruin/unpowered/hammerhead/weapons)
 "AZ" = (
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating,
@@ -1112,10 +1047,7 @@
 	},
 /area/ruin/unpowered/hammerhead/xo)
 "Be" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/table_frame,
@@ -1129,10 +1061,10 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/maintenance)
 "BE" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/computer/communications{
 	dir = 8
 	},
@@ -1149,22 +1081,18 @@
 /area/ruin/unpowered/hammerhead/bridge)
 "BK" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue,
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "BT" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/west,
@@ -1200,10 +1128,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "CL" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment{
@@ -1267,10 +1195,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "Fb" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment{
@@ -1291,14 +1219,14 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/maintenance)
 "Fn" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/industrial/warning{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
@@ -1361,13 +1289,13 @@
 /turf/closed/wall/r_wall,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "Gk" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
@@ -1392,30 +1320,26 @@
 /area/ruin/unpowered/hammerhead/hallway)
 "GA" = (
 /obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
-"GR" = (
-/obj/item/stack/rods,
-/turf/template_noop,
-/area/ruin/unpowered/hammerhead/weapons)
 "GU" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead)
 "Hk" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /obj/structure/chair/office{
@@ -1427,18 +1351,18 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "Hr" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
 	},
 /obj/machinery/computer/crew{
 	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
@@ -1455,10 +1379,10 @@
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "Hz" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "HQ" = (
@@ -1490,10 +1414,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
-"IK" = (
-/obj/item/stack/cable_coil/red,
-/turf/template_noop,
-/area/ruin/unpowered/hammerhead/weapons)
 "IT" = (
 /obj/structure/grille,
 /obj/structure/cable{
@@ -1553,9 +1473,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "Kn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -1564,10 +1482,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "Ku" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
@@ -1603,10 +1521,6 @@
 "KG" = (
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain)
-"KM" = (
-/obj/item/stack/sheet/metal/ten,
-/turf/open/floor/plating,
-/area/ruin/unpowered/hammerhead/weapons)
 "KW" = (
 /obj/effect/spawner/structure/window/reinforced/shutters,
 /turf/open/floor/plating,
@@ -1628,10 +1542,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/captain/quarters)
 "Lg" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/modular_computer/console/preset/command{
 	dir = 8
 	},
@@ -1665,14 +1579,6 @@
 	},
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
-"Lv" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 1
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "Ly" = (
 /obj/machinery/door/airlock/command/glass,
 /obj/effect/mapping_helpers/airlock/abandoned,
@@ -1700,28 +1606,23 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "LE" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /obj/machinery/computer/helm{
 	dir = 8
 	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
-"LP" = (
-/turf/open/floor/plasteel/dark/corner{
-	dir = 8
-	},
-/area/ruin/unpowered/hammerhead/hallway)
 "LQ" = (
-/turf/open/floor/plasteel/dark/side,
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "Mg" = (
 /obj/structure/disposalpipe/segment{
@@ -1733,7 +1634,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "MW" = (
 /obj/structure/disposalpipe/sorting/mail/flip,
@@ -1746,9 +1647,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "MZ" = (
 /obj/machinery/camera{
@@ -1763,7 +1662,6 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "Nd" = (
-/obj/item/stack/rods/ten,
 /obj/structure/flora/grass/jungle/b{
 	icon_state = "grassb2"
 	},
@@ -1773,10 +1671,10 @@
 /turf/closed/wall,
 /area/ruin/unpowered/hammerhead/maintenance)
 "Ni" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/structure/frame/computer{
 	dir = 8
 	},
@@ -1812,10 +1710,7 @@
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "OF" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /obj/machinery/camera{
@@ -1825,8 +1720,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "OG" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -1845,7 +1740,7 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "Pi" = (
-/obj/effect/turf_decal/arrows/red{
+/obj/effect/turf_decal/arrows{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -1856,10 +1751,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "Pp" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
@@ -1883,9 +1778,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 8
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "Qy" = (
 /obj/structure/table/glass,
@@ -1899,7 +1792,6 @@
 /area/ruin/unpowered/hammerhead/xo)
 "QS" = (
 /obj/structure/lattice,
-/obj/item/stack/tile/plasteel,
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead/hallway)
 "Rs" = (
@@ -1924,7 +1816,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "RX" = (
 /obj/structure/grille/broken,
@@ -1998,10 +1890,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "TP" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable{
@@ -2034,10 +1926,7 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/maintenance)
 "Ul" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -2089,8 +1978,8 @@
 /turf/open/floor/plating,
 /area/ruin/unpowered/hammerhead/weapons)
 "VA" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -2104,19 +1993,19 @@
 /turf/template_noop,
 /area/ruin/unpowered/hammerhead)
 "VN" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
 /obj/structure/frame/computer,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "VW" = (
@@ -2133,10 +2022,6 @@
 "Wf" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
-"Wg" = (
-/obj/item/stack/rods,
-/turf/template_noop,
-/area/ruin/unpowered/hammerhead)
 "Wu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -2152,7 +2037,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/plasteel/dark/side,
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "WR" = (
 /obj/structure/table/glass,
@@ -2174,7 +2059,6 @@
 "WW" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
-/obj/item/stamp/head_of_personnel,
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/xo)
 "Xd" = (
@@ -2204,14 +2088,14 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/checker,
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/hammerhead/hallway)
 "Xs" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
@@ -2224,10 +2108,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge)
 "Xy" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -2236,10 +2120,10 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
 "Xz" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
@@ -2247,19 +2131,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/bridge/cic)
-"XP" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark/side,
-/area/ruin/unpowered/hammerhead/hallway)
 "XS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark/side{
-	dir = 5
-	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/unpowered/hammerhead/hallway)
 "XT" = (
 /obj/machinery/camera{
@@ -2276,10 +2152,10 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "YW" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/corner/blue,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
 	dir = 4
 	},
@@ -2326,11 +2202,11 @@
 /turf/open/floor/carpet/nanoweave,
 /area/ruin/unpowered/hammerhead/bridge/war_room)
 "ZY" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue,
+/obj/effect/turf_decal/corner/blue{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/corner/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -2348,9 +2224,9 @@ Wz
 TZ
 rS
 tX
-Lv
+XS
 ju
-nh
+Ki
 ju
 ju
 ju
@@ -2358,7 +2234,7 @@ ju
 ju
 LQ
 xl
-hm
+LQ
 hn
 FN
 FN
@@ -2383,26 +2259,26 @@ qi
 qi
 ds
 ds
-XP
+XS
 io
 XS
-qV
+LQ
 QS
 Ki
 mm
-qV
-qV
-qV
-cZ
+LQ
+LQ
+LQ
+LQ
 LC
-hm
+LQ
 lc
 jp
 lc
 jp
 lc
 jp
-tR
+jp
 Gy
 Fm
 qt
@@ -2413,7 +2289,7 @@ sQ
 (3,1,1) = {"
 qi
 qi
-AX
+qi
 qi
 qi
 qi
@@ -2432,7 +2308,7 @@ mo
 mo
 mo
 gm
-hm
+LQ
 QR
 fA
 fA
@@ -2457,19 +2333,19 @@ qi
 Xh
 Xh
 dE
-LP
-vt
+LQ
+jp
 Ql
 wc
 MW
 az
 Km
-vt
-vt
-vt
-vt
-vt
-xO
+jp
+jp
+jp
+jp
+jp
+jp
 QR
 Dm
 ON
@@ -2524,13 +2400,13 @@ Kv
 (6,1,1) = {"
 qi
 qi
-IK
 qi
 qi
-KM
+qi
+Xh
 px
 Zx
-Af
+Ul
 hq
 hq
 hq
@@ -2708,7 +2584,7 @@ lt
 "}
 (11,1,1) = {"
 qi
-AX
+qi
 qi
 XU
 XU
@@ -2822,7 +2698,7 @@ qi
 qi
 XU
 XU
-AX
+qi
 KA
 rY
 VE
@@ -2966,7 +2842,7 @@ So
 lt
 "}
 (18,1,1) = {"
-GR
+qi
 KA
 KA
 KA
@@ -3043,7 +2919,7 @@ lt
 GU
 Qk
 Qk
-Wg
+Ev
 Qk
 Qk
 So
@@ -3111,11 +2987,11 @@ So
 cH
 lt
 Qk
-fL
+lt
 "}
 (22,1,1) = {"
 GU
-Wg
+Ev
 Ev
 Qk
 GU
@@ -3164,7 +3040,7 @@ lt
 Qk
 lt
 lt
-fL
+lt
 Qk
 lt
 So
@@ -3190,7 +3066,7 @@ lt
 (24,1,1) = {"
 Qk
 Ev
-Wg
+Ev
 Qk
 GU
 lt
@@ -3217,7 +3093,7 @@ lt
 Qk
 lt
 lt
-fL
+lt
 lt
 lt
 lt
@@ -3226,10 +3102,10 @@ lt
 "}
 (25,1,1) = {"
 GU
-Wg
 Ev
 Ev
 Ev
+Ev
 lt
 lt
 lt
@@ -3243,7 +3119,7 @@ lt
 lt
 lt
 lt
-fL
+lt
 ng
 Qk
 ng
