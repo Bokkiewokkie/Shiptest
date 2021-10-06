@@ -443,21 +443,28 @@
 	desc = "The bare minimum amount of machine and computer boards required to create a working spacecraft."
 	cost = 8000
 	contains = list(
-		/obj/item/circuitboard/computer/shuttle/docker,
 		/obj/item/circuitboard/computer/shuttle/helm,
 		/obj/item/circuitboard/machine/shuttle/smes,
 		/obj/item/circuitboard/machine/shuttle/engine/electric
 	)
 	crate_name = "Shuttle in a Box"
 
-/datum/supply_pack/engineering/shuttle_designator
-	name = "Shuttle Designator"
-	desc = "A tool used to create spacecraft from scratch, used for defining areas and linking consoles."
-	cost = 5000
-	contains = list(/obj/item/shuttle_creator)
-	crate_name = "Shuttle Designator"
-	small_item = TRUE
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////// Mining Vendor ///////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 
+/datum/supply_pack/materials/mining_vendor
+	name = "Mining Equipment Refill"
+	desc = "A resupply kit for the mining equipment vendor."
+	cost = 3000
+	contains = list(
+		/obj/item/vending_refill/mining_equipment
+	)
+	crate_name = "survival vendor kit"
+
+/datum/supply_pack/materials/mining_vendor/fill(obj/structure/closet/crate/C)
+	contains += pick(/obj/item/pickaxe, /obj/item/storage/box/gum/bubblegum, /obj/item/toy/figure/miner, /obj/item/clothing/accessory/talisman)
+	. = ..()
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////// Miscellaneous ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
