@@ -309,6 +309,8 @@
 
 
 /obj/singularity/proc/consume(atom/A)
+	if(istype(A, turf/template_noop))
+		return
 	var/gain = A.singularity_act(current_size, src)
 	src.energy += gain
 	if(istype(A, /obj/machinery/power/supermatter_crystal) && !consumedSupermatter)
