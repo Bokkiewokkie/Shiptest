@@ -12,6 +12,26 @@
 	caliber = "357"
 	projectile_type = /obj/projectile/bullet/a357/match
 
+// .45-70 (Hunting Revolver)
+
+/obj/item/ammo_casing/a4570
+	name = ".45-70 bullet casing"
+	desc = "A .45-70 bullet casing."
+	caliber = "4570"
+	projectile_type = /obj/projectile/bullet/a4570
+
+/obj/item/ammo_casing/a4570/match
+	name = ".45-70 match bullet casing"
+	desc = "A .45-70 bullet casing, manufactured to exceedingly high standards."
+	caliber = "4570"
+	projectile_type = /obj/projectile/bullet/a4570/match
+
+/obj/item/ammo_casing/a4570/explosive
+	name = ".45-70 explosive bullet casing"
+	desc = "A .45-70 bullet casing, loaded with a tiny explosive charge."
+	caliber = "4570"
+	projectile_type = /obj/projectile/bullet/a4570/explosive
+
 // 7.62x38mmR (Nagant Revolver)
 
 /obj/item/ammo_casing/n762
@@ -59,3 +79,9 @@
 	desc = "A .38 Iceblox bullet casing."
 	caliber = "38"
 	projectile_type = /obj/projectile/bullet/c38/iceblox
+
+/obj/item/ammo_casing/c38/hunting
+	name = ".38 hunting casing"
+	desc = "A .38 hunting casing."
+	caliber = "38"
+	projectile_type = /obj/projectile/bullet/c38/hunting

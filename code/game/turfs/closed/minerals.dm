@@ -24,7 +24,7 @@
 	var/defer_change = 0
 	var/has_borders = TRUE
 
-/turf/closed/mineral/Initialize()
+/turf/closed/mineral/Initialize(mapload, inherited_virtual_z)
 	. = ..()
 	if(has_borders)
 		var/matrix/M = new
@@ -154,7 +154,7 @@
 		//Currently, Adamantine won't spawn as it has no uses. -Durandan
 	var/mineralChance = 13
 
-/turf/closed/mineral/random/Initialize()
+/turf/closed/mineral/random/Initialize(mapload, inherited_virtual_z)
 
 	mineralSpawnChanceList = typelist("mineralSpawnChanceList", mineralSpawnChanceList)
 
@@ -197,6 +197,11 @@
 		/obj/item/stack/ore/uranium = 35, /obj/item/stack/ore/diamond = 30, /obj/item/stack/ore/gold = 45, /obj/item/stack/ore/titanium = 45,
 		/obj/item/stack/ore/silver = 50, /obj/item/stack/ore/plasma = 50, /obj/item/stack/ore/bluespace_crystal)
 
+/turf/closed/mineral/random/high_chance/volcanic/icecropolis
+	environment_type = "basalt"
+	turf_type = /turf/open/indestructible/necropolis/air
+	baseturfs = /turf/open/indestructible/necropolis/air
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 
 /turf/closed/mineral/random/low_chance
 	icon_state = "rock_lowchance"
@@ -220,6 +225,11 @@
 		/obj/item/stack/ore/silver = 12, /obj/item/stack/ore/plasma = 20, /obj/item/stack/ore/iron = 40,
 		/turf/closed/mineral/gibtonite/volcanic = 4, /obj/item/stack/ore/bluespace_crystal = 1)
 
+/turf/closed/mineral/random/volcanic/icecropolis
+	environment_type = "basalt"
+	turf_type = /turf/open/indestructible/necropolis/air
+	baseturfs = /turf/open/indestructible/necropolis/air
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 
 /turf/closed/mineral/random/snow
 	name = "snowy mountainside"
@@ -443,6 +453,15 @@
 	turf_type = /turf/open/floor/plating/asteroid/snow/ice/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
+//yoo RED ROCK RED ROCK
+
+/turf/closed/mineral/asteroid
+	name = "iron rock"
+	icon = 'icons/turf/mining.dmi'
+	icon_state = "redrock"
+	smooth_icon = 'icons/turf/walls/red_wall.dmi'
+	base_icon_state = "red_wall"
+
 //GIBTONITE
 
 /turf/closed/mineral/gibtonite
@@ -454,12 +473,12 @@
 	var/activated_name = null
 	var/mutable_appearance/activated_overlay
 
-/turf/closed/mineral/gibtonite/Initialize()
+/turf/closed/mineral/gibtonite/Initialize(mapload, inherited_virtual_z)
 	det_time = rand(8,10) //So you don't know exactly when the hot potato will explode
 	. = ..()
 
 /turf/closed/mineral/gibtonite/attackby(obj/item/I, mob/user, params)
-	if(istype(I, /obj/item/mining_scanner) || istype(I, /obj/item/t_scanner/adv_mining_scanner) && stage == 1)
+	if(istype(I, /obj/item/mining_scanner) || istype(I, /obj/item/t_scanner/adv_mining_scanner) || istype(I, /obj/item/pinpointer/deepcore) && stage == 1)
 		user.visible_message("<span class='notice'>[user] holds [I] to [src]...</span>", "<span class='notice'>You use [I] to locate where to cut off the chain reaction and attempt to stop it...</span>")
 		defuse()
 	..()

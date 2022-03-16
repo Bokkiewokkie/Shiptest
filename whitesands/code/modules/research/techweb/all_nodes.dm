@@ -2,7 +2,7 @@
 /datum/techweb_node/spacepod_basic
 	id = "spacepod_basic"
 	display_name = "Spacepod Construction"
-	description = "Basic stuff to construct Spacepods. Don't crash your first spacepod into the station, especially while going more than 10 m/s."
+	description = "Basic stuff to construct Spacepods. Don't crash your first spacepod into the sun, especially while going more than 10 m/s."
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 2500
 	prereq_ids = list("base")
@@ -113,7 +113,7 @@
 	display_name = "Basic Shuttle Research"
 	description = "Research the technology required to create and use basic shuttles."
 	prereq_ids = list("bluespace_travel", "adv_engi")
-	design_ids = list("engine_plasma", "engine_ion", "engine_heater", "engine_smes", "shuttle_helm")
+	design_ids = list("engine_plasma", "engine_ion", "engine_heater", "engine_smes", "shuttle_helm", "rapid_shuttle_designator")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 

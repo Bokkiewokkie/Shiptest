@@ -42,7 +42,7 @@
 
 /obj/structure/flora/stump
 	name = "stump"
-	desc = "This represents our promise to the crew, and the station itself, to cut down as many trees as possible." //running naked through the trees
+	desc = "This represents our promise to each other, and the universe itself, to cut down as many trees as possible." //running naked through the trees
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "tree_stump"
 	density = FALSE
@@ -135,15 +135,17 @@
 
 /obj/structure/flora/tree/jungle
 	name = "tree"
+	icon = 'icons/obj/flora/jungletrees.dmi'
 	icon_state = "tree"
 	desc = "It's seriously hampering your view of the jungle."
-	icon = 'icons/obj/flora/jungletrees.dmi'
+	var/randomize_icon = TRUE
 	pixel_x = -48
 	pixel_y = -20
 
 /obj/structure/flora/tree/jungle/Initialize()
-	icon_state = "[icon_state][rand(1, 6)]"
 	. = ..()
+	if(randomize_icon) //prevents varedited trees changing
+		icon_state = "[icon_state][rand(1, 10)]"
 
 /obj/structure/flora/tree/jungle/small
 	pixel_y = 0

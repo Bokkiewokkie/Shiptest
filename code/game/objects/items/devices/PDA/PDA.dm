@@ -373,7 +373,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 			if(41) //crew manifest
 				dat += "<h4>Crew Manifest</h4>"
 				dat += "<center>"
-				dat += GLOB.data_core.get_manifest_html()
+				dat += SSjob.get_manifest_html()
 				dat += "</center>"
 
 			if(3)
@@ -1107,8 +1107,8 @@ GLOBAL_LIST_EMPTY(PDAs)
 /obj/item/pda/emp_act(severity)
 	. = ..()
 	if (!(. & EMP_PROTECT_CONTENTS))
-		for(var/atom/A in src)
-			A.emp_act(severity)
+		for(var/atom/movable/AM as anything in src)
+			AM.emp_act(severity)
 	if (!(. & EMP_PROTECT_SELF))
 		emped++
 		addtimer(CALLBACK(src, .proc/emp_end), 200 * severity)

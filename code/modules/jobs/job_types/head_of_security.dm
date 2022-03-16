@@ -8,11 +8,10 @@
 	spawn_positions = 1
 	supervisors = "the captain"
 	selection_color = "#ffdddd"
-	req_admin_notify = 1
 	minimal_player_age = 14
 	exp_requirements = 300
+	officer = TRUE
 	wiki_page = "Head_of_Security" //WS Edit - Wikilinks/Warning
-	special_notice = "Remember, Space Law is THE law. Follow it." //WS Edit - Wikilinks/Warning
 	exp_type = EXP_TYPE_CREW
 	exp_type_department = EXP_TYPE_SECURITY
 
@@ -73,3 +72,27 @@
 	suit_store = /obj/item/tank/internals/oxygen
 	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/gun/energy/e_gun=1, /obj/item/ammo_box/magazine/co9mm=1) //WS edit - free lethals
 
+/datum/outfit/job/hos/sergeant
+	name = "Sergeant (Head of Security)"
+
+	uniform = /obj/item/clothing/under/syndicate/gorlex
+	head = /obj/item/clothing/head/HoS/beret/syndicate
+	suit = /obj/item/clothing/suit/armor/vest/syndie
+	r_pocket = /obj/item/melee/transforming/energy/sword
+	backpack_contents = list(/obj/item/melee/baton/loaded=1)
+
+/datum/outfit/job/hos/inteq
+	name = "IRMG Vanguard"
+
+	uniform = /obj/item/clothing/under/syndicate/inteq
+	head = /obj/item/clothing/head/beret/sec/hos/inteq
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	mask = /obj/item/clothing/mask/gas/sechailer/inteq
+	belt = /obj/item/storage/belt/security/webbing/inteq
+	suit = /obj/item/clothing/suit/armor/hos/inteq
+	dcoat = /obj/item/clothing/suit/hooded/wintercoat/security/inteq
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+
+	courierbag = /obj/item/storage/backpack/messenger/inteq
+	backpack_contents = list(/obj/item/melee/baton/loaded=1, /obj/item/ammo_box/magazine/co9mm=1, /obj/item/pda/heads/hos)

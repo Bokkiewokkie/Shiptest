@@ -10,7 +10,7 @@
 	filename = "plexagonidwriter"
 	filedesc = "Plexagon Access Management"
 	program_icon_state = "id"
-	extended_desc = "Program for programming employee ID cards to access parts of the station."
+	extended_desc = "Program for programming standarized ID cards to access doors across the sector."
 	transfer_access = ACCESS_HEADS
 	requires_ntnet = 0
 	size = 8
@@ -153,7 +153,6 @@
 			if(!computer || !card_slot)
 				return
 			if(id_card)
-				GLOB.data_core.manifest_modify(id_card.registered_name, id_card.assignment)
 				card_slot.try_eject(TRUE, user)
 			else
 				var/obj/item/I = user.get_active_held_item()

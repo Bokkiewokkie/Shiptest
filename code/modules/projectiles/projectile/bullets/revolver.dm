@@ -2,7 +2,7 @@
 
 /obj/projectile/bullet/n762
 	name = "7.62x38mmR bullet"
-	damage = 60
+	damage = 35
 
 // .50AE (Desert Eagle)
 
@@ -10,7 +10,7 @@
 	name = ".50AE bullet"
 	damage = 60
 
-// .38 (Detective's Gun)
+// .38 (Detective's Gun & Winchester)
 
 /obj/projectile/bullet/c38
 	name = ".38 bullet"
@@ -90,11 +90,21 @@
 		var/mob/living/M = target
 		M.adjust_bodytemperature(((100-blocked)/100)*(temperature - M.bodytemperature))
 
+/obj/projectile/bullet/c38/hunting //bonus damage to simplemobs
+	name = ".38 hunting"
+	damage = 15
+	var/bonus_damage = 40 // if a simplemob then do this much extra
+
+/obj/projectile/bullet/c38/hunting/on_hit(atom/target, blocked = FALSE)
+	if(istype(target, /mob/living/simple_animal/hostile/asteroid/))
+		damage += bonus_damage
+	..()
+
 // .357 (Syndie Revolver)
 
 /obj/projectile/bullet/a357
 	name = ".357 bullet"
-	damage = 60
+	damage = 35 //shiptest nerf
 
 // admin only really, for ocelot memes
 /obj/projectile/bullet/a357/match
@@ -105,3 +115,26 @@
 	ricochet_auto_aim_range = 6
 	ricochet_incidence_leeway = 80
 	ricochet_decay_chance = 1
+
+// .45-70 Gov't (Hunting Revolver)
+
+/obj/projectile/bullet/a4570
+	name = ".45-70 bullet"
+	damage = 60 //it's the old .357
+
+/obj/projectile/bullet/a4570/match
+	name = ".45-70 match bullet"
+	ricochets_max = 5
+	ricochet_chance = 140
+	ricochet_auto_aim_angle = 50
+	ricochet_auto_aim_range = 6
+	ricochet_incidence_leeway = 80
+	ricochet_decay_chance = 1
+
+/obj/projectile/bullet/a4570/explosive //for extra oof
+	name = ".45-70 explosive bullet"
+
+/obj/projectile/bullet/a4570/explosive/on_hit(atom/target, blocked = FALSE)
+	..()
+	explosion(target, -1, 0, 1)
+	return BULLET_ACT_HIT

@@ -809,7 +809,7 @@
 	AI.controlled_mech = src
 	AI.remote_control = src
 	AI.can_shunt = 0 //ONE AI ENTERS. NO AI LEAVES.
-	to_chat(AI, AI.can_dominate_mechs ? "<span class='announce'>Takeover of [name] complete! You are now loaded onto the onboard computer. Do not attempt to leave the station sector!</span>" :\
+	to_chat(AI, AI.can_dominate_mechs ? "<span class='announce'>Takeover of [name] complete! You are now loaded onto the onboard computer. Attempting to leave your transmission region will result in connection loss!</span>" :\
 		"<span class='notice'>You have been uploaded to a mech's onboard computer.</span>")
 	to_chat(AI, "<span class='reallybig boldnotice'>Use Middle-Mouse to activate mech functions and equipment. Click normally for AI interactions.</span>")
 	if(interaction == AI_TRANS_FROM_CARD)
@@ -909,7 +909,16 @@
 
 	visible_message("<span class='notice'>[user] starts to climb into [name].</span>")
 
-	if(do_after(user, enter_delay, target = src))
+	//check user for fast embark, divide enter_delay by 2, then pass final delay to do_after
+	var/final_delay = enter_delay
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.wear_suit)
+			var/obj/item/clothing/suit/S = H.get_item_by_slot(ITEM_SLOT_OCLOTHING)
+			if(S.clothing_flags & FAST_EMBARK)
+				final_delay = enter_delay/2
+
+	if(do_after(user, final_delay, target = src))
 		if(obj_integrity <= 0)
 			to_chat(user, "<span class='warning'>You cannot get in the [name], it has been destroyed!</span>")
 		else if(occupant)
@@ -994,7 +1003,15 @@
 /obj/mecha/container_resist_act(mob/living/user)
 	is_currently_ejecting = TRUE
 	to_chat(occupant, "<span class='notice'>You begin the ejection procedure. Equipment is disabled during this process. Hold still to finish ejecting.</span>")
-	if(do_after(occupant, has_gravity() ? exit_delay : 0 , target = src))
+	var/final_exit_delay = exit_delay
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.wear_suit)
+			var/obj/item/clothing/suit/S = H.get_item_by_slot(ITEM_SLOT_OCLOTHING)
+			if(S.clothing_flags & FAST_EMBARK)
+				final_exit_delay = exit_delay/2
+
+	if(do_after(occupant, has_gravity() ? final_exit_delay : 0 , target = src))
 		to_chat(occupant, "<span class='notice'>You exit the mech.</span>")
 		go_out()
 	else

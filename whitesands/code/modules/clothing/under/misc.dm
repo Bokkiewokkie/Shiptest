@@ -1,6 +1,6 @@
 /obj/item/clothing/under/utility
-	icon = 'whitesands/icons/obj/clothing/under/misc.dmi'
-	mob_overlay_icon = 'whitesands/icons/mob/clothing/under/misc.dmi'
+	icon = 'icons/obj/clothing/under/misc.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/under/misc.dmi'
 	name = "utility jumpsuit"
 	desc = "A somewhat uncomfortable suit designed to be as cheap as possible to manufacture."
 	icon_state = "utility"
@@ -15,3 +15,4 @@
 	icon_state = "utility_skirt"
 	item_state = "utility_skirt"
 	can_adjust = FALSE
+	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON

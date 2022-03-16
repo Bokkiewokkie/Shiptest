@@ -14,6 +14,13 @@
 		html = msg,
 		confidential = TRUE)
 
+/proc/message_debug(msg)
+	log_world("DEBUG: [msg]")
+	msg = "<span class=\"admindebug\"><span class=\"prefix\">DEBUG:</span> <span class=\"message linkify\">[msg]</span></span>"
+	to_chat(GLOB.admins,
+		type = MESSAGE_TYPE_DEBUG,
+		html = msg,
+		confidential = TRUE)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////Panels
 
@@ -66,21 +73,6 @@
 		body += "<a href='?_src_=holder;[HrefToken()];modantagrep=subtract;mob=[REF(M)]'>-</a> "
 		body += "<a href='?_src_=holder;[HrefToken()];modantagrep=set;mob=[REF(M)]'>=</a> "
 		body += "<a href='?_src_=holder;[HrefToken()];modantagrep=zero;mob=[REF(M)]'>0</a>"
-		//WS Begin - Metacoins
-		var/metabalance = M.client.get_metabalance()
-		body += "<br><br><b>[CONFIG_GET(string/metacurrency_name)]s</b>: [metabalance] "
-		body += "<br><a href='?_src_=holder;[HrefToken()];modmetacoin=add;mob=[REF(M)]'>+</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modmetacoin=subtract;mob=[REF(M)]'>-</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modmetacoin=set;mob=[REF(M)]'>=</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modmetacoin=zero;mob=[REF(M)]'>0</a>"
-		//Antag Tokens
-		var/antag_tokens = M.client.get_antag_token_count()
-		body += "<br><br><b>Antag Tokens</b>: [antag_tokens]"
-		body += "<br><a href='?_src_=holder;[HrefToken()];modantagtokens=add;mob=[REF(M)]'>+</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modantagtokens=subtract;mob=[REF(M)]'>-</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modantagtokens=set;mob=[REF(M)]'>=</a> "
-		body += "<a href='?_src_=holder;[HrefToken()];modantagtokens=zero;mob=[REF(M)]'>0</a>"
-		//WS End
 		var/full_version = "Unknown"
 		if(M.client.byond_version)
 			full_version = "[M.client.byond_version].[M.client.byond_build ? M.client.byond_build : "xxx"]"
@@ -267,7 +259,7 @@
 			dat+="<BR><A href='?src=[REF(src)];[HrefToken()];ac_menu_censor_channel=1'>Mark Feed Channel with Nanotrasen D-Notice (disables and locks the channel).</A>"
 			dat+="<BR><HR><A href='?src=[REF(src)];[HrefToken()];ac_set_signature=1'>The newscaster recognises you as:<BR> <FONT COLOR='green'>[src.admin_signature]</FONT></A>"
 		if(1)
-			dat+= "Station Feed Channels<HR>"
+			dat+= "Feed Channels<HR>"
 			if( !length(GLOB.news_network.network_channels) )
 				dat+="<I>No active channels found...</I>"
 			else
@@ -709,7 +701,7 @@
 /datum/admins/proc/unprison(mob/M in GLOB.mob_list)
 	set category = "Admin"
 	set name = "Unprison"
-	if (is_centcom_level(M.z))
+	if (is_centcom_level(M))
 		SSjob.SendToLateJoin(M)
 		message_admins("[key_name_admin(usr)] has unprisoned [key_name_admin(M)]")
 		log_admin("[key_name(usr)] has unprisoned [key_name(M)]")
@@ -886,44 +878,6 @@
 		to_chat(usr, devil.printdevilinfo(), confidential = TRUE)
 	else
 		to_chat(usr, "<b>[M] is not a devil.", confidential = TRUE)
-
-/datum/admins/proc/manage_free_slots()
-	if(!check_rights())
-		return
-	var/datum/browser/browser = new(usr, "jobmanagement", "Manage Free Slots", 520)
-	var/list/dat = list()
-	var/count = 0
-
-	if(!SSjob.initialized)
-		alert(usr, "You cannot manage jobs before the job subsystem is initialized!")
-		return
-
-	dat += "<table>"
-
-	for(var/j in SSjob.occupations)
-		var/datum/job/job = j
-		count++
-		var/J_title = html_encode(job.title)
-		var/J_opPos = html_encode(job.total_positions - (job.total_positions - job.current_positions))
-		var/J_totPos = html_encode(job.total_positions)
-		dat += "<tr><td>[J_title]:</td> <td>[J_opPos]/[job.total_positions < 0 ? " (unlimited)" : J_totPos]"
-
-		dat += "</td>"
-		dat += "<td>"
-		if(job.total_positions >= 0)
-			dat += "<A href='?src=[REF(src)];[HrefToken()];customjobslot=[job.title]'>Custom</A>"
-			dat += "<A href='?src=[REF(src)];[HrefToken()];addjobslot=[job.title]'>Add 1</A>"
-			if(job.total_positions > job.current_positions)
-				dat += "<A href='?src=[REF(src)];[HrefToken()];removejobslot=[job.title]'>Remove</A>"
-			else
-				dat += "Remove"
-			dat += "<A href='?src=[REF(src)];[HrefToken()];unlimitjobslot=[job.title]'>Unlimit</A></td>"
-		else
-			dat += "<A href='?src=[REF(src)];[HrefToken()];limitjobslot=[job.title]'>Limit</A></td>"
-
-	browser.height = min(100 + count * 20, 650)
-	browser.set_content(dat.Join())
-	browser.open()
 
 /datum/admins/proc/dynamic_mode_options(mob/user)
 	var/dat = {"
