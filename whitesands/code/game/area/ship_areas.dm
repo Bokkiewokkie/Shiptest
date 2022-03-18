@@ -106,6 +106,19 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	lighting_colour_bulb = "#ffdbb4"
 	lighting_brightness_tube = 6
 
+/area/ship/bridge/cic
+	name = "CIC" //Combat Information Centre
+
+/area/ship/bridge/captain
+	name = "Captain's Office"
+	icon_state = "captain"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/ship/bridge/xo
+	name = "Executive Officer's Office"
+	icon_state = "hop_office"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
 /// Crew Quarters ///
 /area/ship/crew
 	name = "Crew Quarters"
@@ -151,6 +164,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Chapel Office"
 	icon_state = "chapeloffice"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
 /area/ship/crew/library
 	name = "Library"
 	icon_state = "library"
@@ -352,6 +366,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/ship/storage
 	name = "Storage Bay"
 	icon_state = "storage"
+
+/area/ship/storage/munitions
+	name = "Munitions Bay"
 
 /// External Areas ///
 /area/ship/external

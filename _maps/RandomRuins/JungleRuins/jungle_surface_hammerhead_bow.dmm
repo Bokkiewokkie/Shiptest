@@ -4,143 +4,143 @@
 	icon_state = "grassb2"
 	},
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "cg" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "eN" = (
 /obj/structure/flora/tree/jungle{
 	icon_state = "tree3"
 	},
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "gg" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "iB" = (
 /obj/item/stack/tile/plasteel,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "jm" = (
 /obj/structure/flora/junglebush/large{
 	icon_state = "bush2"
 	},
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "jJ" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "mT" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "nd" = (
 /obj/structure/flora/junglebush/c{
 	icon_state = "bushb1"
 	},
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "qE" = (
 /obj/item/stack/sheet/plasteel,
 /turf/open/floor/plating/dirt/jungle,
-/area/space)
+/area/template_noop)
 "rU" = (
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating/dirt/jungle,
-/area/space)
+/area/template_noop)
 "sd" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "tZ" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "xM" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "yk" = (
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "FI" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "Gb" = (
 /obj/item/stack/rods/ten,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "Gj" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "GE" = (
 /obj/item/stack/tile/plasteel,
 /turf/open/floor/plating/dirt/jungle,
-/area/space)
+/area/template_noop)
 "If" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/dirt/jungle,
-/area/space)
+/area/template_noop)
 "IR" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "JX" = (
 /turf/open/floor/plating/dirt/jungle/wasteland,
-/area/space)
+/area/template_noop)
 "KA" = (
 /obj/item/stack/cable_coil/red,
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "KS" = (
 /obj/structure/flora/grass/jungle/b{
 	icon_state = "grassa4"
 	},
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "NV" = (
 /obj/structure/flora/junglebush/c{
 	icon_state = "busha2"
 	},
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "QG" = (
 /obj/item/stack/sheet/metal/ten,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "Rv" = (
 /obj/structure/flora/grass/jungle/b{
 	icon_state = "grassb3"
 	},
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "Se" = (
 /obj/structure/flora/rock/jungle{
 	icon_state = "rock5"
 	},
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "Un" = (
 /obj/structure/flora/rock/jungle{
 	icon_state = "rock3"
 	},
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 "ZF" = (
 /turf/open/floor/plating/dirt/jungle,
-/area/space)
+/area/template_noop)
 "ZI" = (
 /turf/open/floor/plating/grass/jungle,
-/area/space)
+/area/template_noop)
 "ZV" = (
 /turf/open/floor/plating/dirt/jungle/dark,
-/area/space)
+/area/template_noop)
 
 (1,1,1) = {"
 ZI
