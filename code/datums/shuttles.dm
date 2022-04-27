@@ -198,6 +198,10 @@
 	file_name = "ruin_solgov_exploration_pod"
 	name = "SolGov Exploration Pod"
 
+/datum/map_template/shuttle/ruin/hammerhead_bow
+	file_name = "hammerhead_bow"
+	name = "Hammerhead Bow"
+
 /// Escape pod map templates
 /datum/map_template/shuttle/escape_pod
 	category = "escape_pod"

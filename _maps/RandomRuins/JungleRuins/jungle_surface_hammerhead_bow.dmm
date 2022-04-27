@@ -103,6 +103,18 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/template_noop)
+"MV" = (
+/obj/docking_port/stationary{
+	bound_width = 35;
+	dir = 4;
+	dwidth = 14;
+	height = 25;
+	name = "Crash Site";
+	roundstart_template = /datum/map_template/shuttle/ruin/hammerhead_bow;
+	width = 35
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/template_noop)
 "NV" = (
 /obj/structure/flora/junglebush/c{
 	icon_state = "busha2"
@@ -163,7 +175,7 @@ ZF
 ZF
 ZF
 ZF
-ZF
+MV
 ZF
 ZF
 ZF

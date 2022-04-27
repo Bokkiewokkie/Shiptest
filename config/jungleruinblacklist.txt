@@ -14,6 +14,7 @@
 #_maps/RandomRuins/JungleRuins/jungle_spider.dmm
 #_maps/RandomRuins/JungleRuins/jungle_surface_abandonedsolgov.dmm
 #_maps/RandomRuins/JungleRuins/jungle_surface_coffinpirate.dmm
+#_maps/RandomRuins/JungleRuins/jungle_surface_hammerhead_bow.dmm
 #_maps/RandomRuins/JungleRuins/jungle_surface_ikea_ai.dmm
 #_maps/RandomRuins/JungleRuins/jungle_surface_monkies.dmm
 #_maps/RandomRuins/JungleRuins/jungle_surface_ninjashrine.dmm
