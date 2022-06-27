@@ -309,7 +309,7 @@
 
 
 /obj/singularity/proc/consume(atom/A)
-	if(istype(A, turf/template_noop))
+	if(istype(A, /turf/open/floor/engine/double))
 		return
 	var/gain = A.singularity_act(current_size, src)
 	src.energy += gain

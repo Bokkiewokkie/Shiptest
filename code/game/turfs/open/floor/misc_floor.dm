@@ -309,3 +309,13 @@
 	slowdown = 2
 	reagent_to_extract = /datum/reagent/asphalt
 	extracted_reagent_visible_name = "tar"
+
+/turf/open/floor/engine/double
+	name = "Double reinforced singularity containment floor"
+	desc = "Extremely robust floor plating strong enough to resist even the pulling force of a singularity."
+	icon_state = "singengine"
+	baseturfs = list(/turf/open/floor/plating, /turf/open/floor/engine)
+	floor_tile = /obj/item/stack/sheet/mineral/plastitanium
+
+/turf/open/floor/engine/double/airless
+	initial_gas_mix = AIRLESS_ATMOS

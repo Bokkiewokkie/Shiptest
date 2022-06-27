@@ -98,6 +98,20 @@
 		return
 	user.Move_Pulled(src)
 
+/turf/open/floor/engine/attackby(obj/item/C, mob/user, params) //double reinforced floor construction
+	if(..())
+		return
+	if(istype(C, /obj/item/stack/sheet/mineral/plastitanium))
+		var/obj/item/stack/sheet/mineral/plastitanium/P = C
+		to_chat(user, "<span class='notice'>You begin reinforcing the floor a second time...</span>")
+		if(do_after(user, 30, target = src))
+			if (P.get_amount() >= 1 && !istype(src, /turf/open/floor/engine/double))
+				PlaceOnTop(/turf/open/floor/engine/double, flags = CHANGETURF_INHERIT_AIR)
+				playsound(src, 'sound/items/deconstruct.ogg', 80, TRUE)
+				P.use(1)
+				to_chat(user, "<span class='notice'>You reinforce the floor. Again!</span>")
+			return
+
 //air filled floors; used in atmos pressure chambers
 
 /turf/open/floor/engine/n2o
